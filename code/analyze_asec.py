@@ -20,6 +20,15 @@ def weighted_median(values, weights):
     order=np.argsort(x,kind='stable'); x,w=x[order],w[order]
     return float(x[np.searchsorted(np.cumsum(w),w.sum()/2,side='left')])
 
+def weighted_percentiles(values, weights, percentiles=(.10,.25,.50,.75,.90)):
+    x, w = np.asarray(values,float), np.asarray(weights,float)
+    ok = np.isfinite(x) & np.isfinite(w) & (w > 0)
+    x,w = x[ok],w[ok]
+    if not len(x): return [np.nan]*len(percentiles)
+    order=np.argsort(x,kind='stable'); x,w=x[order],w[order]
+    cumulative=np.cumsum(w)
+    return [float(x[np.searchsorted(cumulative,w.sum()*q,side='left')]) for q in percentiles]
+
 def prepare(d, codebook, hflag=0, positive=True):
     d=d.copy()
     checks=[('ASEC_1976_2025',d.YEAR.between(1976,2025)&d.ASECFLAG.eq(1)),
@@ -132,6 +141,13 @@ def main():
     recent=d.loc[d.income_year.between(2022,2024)].copy()
     recent['earnings_2024']=recent.INCWAGE*recent.CPI99/deflator.loc[2025,'min']
     recent['pool_weight']=recent.ASECWT/3
+    distribution=[]
+    for (year,group), cell in recent.groupby(['income_year','group'],observed=True):
+        q=weighted_percentiles(cell.earnings_2024,cell.ASECWT)
+        distribution.append({'income_year':year,'group':group,'n_unweighted':len(cell),
+                             'weighted_population':cell.ASECWT.sum(),
+                             **dict(zip(['p10','p25','p50','p75','p90'],q))})
+    pd.DataFrame(distribution).to_csv(a.out/'recent_earnings_distribution_2022_2024.csv',index=False)
     pooled=summarize(recent,['group','age_group'],'pool_weight','earnings_2024')
     pooled=pooled.set_index(['group','age_group']).reindex(pd.MultiIndex.from_product([GROUPS,AGES],names=['group','age_group'])).reset_index()
     pooled['n_unweighted']=pooled.n_unweighted.fillna(0).astype(int)

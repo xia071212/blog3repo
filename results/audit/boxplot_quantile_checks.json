@@ -1,0 +1,5 @@
+{
+  "weighted_quantiles_verified": 60,
+  "method": "Independent weighted empirical CDF on distinct earnings values",
+  "all_matched": true
+}

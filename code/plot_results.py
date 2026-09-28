@@ -24,13 +24,18 @@ def save(fig,name,pdf):
  for ext in ['png','svg']:fig.savefig(p/(name+'.'+ext),dpi=180,facecolor='white')
  pdf.savefig(fig);plt.close(fig)
 with PdfPages(p/'three_figures.pdf') as pdf:
- d=pd.read_csv(p/'recent_earnings_2022_2024.csv');fig,ax=base('Tech leads recent median annual earnings','Income years 2022–2024. All amounts expressed in 2024 dollars.','Weighted median annual earnings')
- x=np.arange(4);w=.23
- for j,(yr,c) in enumerate(zip([2022,2023,2024],['#b9cde8','#648cbd','#244e83'])):
-  s=d[d.income_year.eq(yr)].set_index('group').loc[groups];v=s.weighted_median_2024_dollars
-  bars=ax.bar(x+(j-1)*w,v,w-.025,label=str(yr),color=c)
-  ax.bar_label(bars,labels=[f'{a/1000:.1f}k' for a in v],padding=4,fontsize=9)
- ax.set_xticks(x,groups);ax.set_ylim(0,135000);ax.yaxis.set_major_formatter(FuncFormatter(lambda v,p:f'${v/1000:,.0f}k'));ax.legend(ncol=3,frameon=False,loc='upper right')
+ d=pd.read_csv(p/'recent_earnings_distribution_2022_2024.csv');fig,ax=base('Tech leads recent annual earnings','Income years 2022–2024, in 2024 dollars. Boxes: weighted P25–P75; line: median; whiskers: P10–P90.','Annual wage and salary earnings (2024 dollars)')
+ x=np.arange(4);w=.22
+ for j,(yr,c) in enumerate(zip([2022,2023,2024],['#a9c3e0','#6594b9','#244e83'])):
+  s=d[d.income_year.eq(yr)].set_index('group').loc[groups]
+  stats=[{'whislo':v.p10,'q1':v.p25,'med':v.p50,'q3':v.p75,'whishi':v.p90,'fliers':[]} for v in s.itertuples()]
+  artists=ax.bxp(stats,positions=x+(j-1)*w,widths=w*.84,patch_artist=True,showfliers=False,manage_ticks=False)
+  for box in artists['boxes']:box.set(facecolor=c,edgecolor='#24445d',linewidth=.8)
+  for line in artists['medians']:line.set(color='white',linewidth=2)
+  for part in ['whiskers','caps']:
+   for line in artists[part]:line.set(color='#24445d',linewidth=1)
+  ax.plot([],[],color=c,lw=8,label=str(yr))
+ ax.set_xticks(x,groups);ax.set_xlim(-.5,3.5);ax.set_ylim(0,max(d.p90)*1.09);ax.yaxis.set_major_formatter(FuncFormatter(lambda v,p:f'${v/1000:,.0f}k'));ax.legend(ncol=3,frameon=False,loc='upper right')
  save(fig,'figure1_recent_earnings',pdf)
  d=pd.read_csv(p/'pooled_age_2022_2024.csv');fig,ax=base('The earnings gap is already present at ages 25–29','Income years 2022–2024 pooled. Age groups compare different people, not individual career paths.','Weighted median annual earnings (2024 dollars)')
  ages=[f'{a}-{a+4}' for a in range(25,65,5)]
@@ -42,6 +47,7 @@ with PdfPages(p/'three_figures.pdf') as pdf:
  for g,c in zip(groups[:2],colors[:2]):
   ax.plot(d.income_year,100*d[g],label=g,color=c,lw=2.3)
   ax.annotate(f'{100*d[g].iloc[-1]:.1f}%',(2024,100*d[g].iloc[-1]),xytext=(6,0),textcoords='offset points',color=c,va='center',fontsize=10)
+ ax.fill_between(d.income_year,100*d.Finance,100*d.Tech,color='#dbe6ef',alpha=.45,zorder=0)
  ax.axvline(2013,color='#a9afb8',ls=':',lw=1);ax.text(2013.5,5,'2013 income:\noriginal 5/8 sample',fontsize=9,color='#687383')
  ax.set_xlim(1975,2028);ax.set_ylim(0,115);ax.set_xticks([1975,1980,1990,2000,2010,2020,2024]);ax.set_xlabel('Income year');ax.legend(ncol=2,frameon=False,loc='upper left')
  fig.text(.09,.105,'Harmonized occupations retain classification breaks. Income disclosure rules and population weights also change over time.',fontsize=9,color='#586575')

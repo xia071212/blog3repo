@@ -2,12 +2,15 @@
 
 This project reproduces **“Tech Dominates the Forbes Rich List. Do Tech and Finance Careers Really Pay More?”** It follows the Blog 2 project's `data/`, `code/`, `results/`, README, and provenance structure. The companion Quarto article lives at `myrepo1/blog/posts/post3/index.qmd` in the local website project. A generated copy is also `blog_post.qmd` here.
 
+[Read the replication guide as a webpage](https://xia071212.github.io/blog3repo/replication-guide.html).
+
 ## Structure
 
 - `code/`: weighted CPS analysis, independent verification, figure generation, and article generation.
 - `data/raw/`: place the authenticated IPUMS extract here. The microdata and download tokens are ignored by Git.
 - `data/metadata/`: local DDI for verification, official historical occupation crosswalk, and the data audit. The DDI contains extract metadata and is ignored by Git.
 - `results/`: tables, three PNG/SVG figures, PDF, quality checks, and SHA-256 output manifest.
+- `images/`: pink-and-blue editorial illustration and its generation provenance.
 - `PROVENANCE.md`: exact source, sample, variable, and correction decisions.
 - `blog_post.qmd`: article generated from the current result tables; the website post is copied from this file.
 
@@ -41,11 +44,14 @@ cd ../myrepo1
 quarto render blog/posts/post3/index.qmd
 ```
 
-Rendering the post locally does not publish it. The public Blog URL and GitHub repository URL should be added only after they actually exist and are verified.
+Rendering the post locally does not publish it.
+
+Read [Blog 3](https://xia071212.github.io/myrepo/blog/posts/post3/index.html). Its article source is maintained separately in [the website repository](https://github.com/xia071212/myrepo/blob/main/blog/posts/post3/index.qmd). The analysis repository is [blog3repo](https://github.com/xia071212/blog3repo).
 
 ## Core results
 
 - `results/recent_earnings_2022_2024.csv`: nominal medians, 2024-dollar medians, counts, and weighted population.
+- `results/recent_earnings_distribution_2022_2024.csv`: ASECWT-weighted P10, P25, P50, P75, and P90 in 2024 dollars; boxplot whiskers represent P10–P90, not Tukey fences. All 60 quantiles are independently verified.
 - `results/pooled_age_2022_2024.csv`: eight age bands by four occupation groups.
 - `results/median_premiums.csv`: annual Tech and Finance premiums over Other, 1975–2024.
 - `results/figure1_recent_earnings.png`, `figure2_age_profiles.png`, `figure3_long_run_premiums.png`: the three article figures.

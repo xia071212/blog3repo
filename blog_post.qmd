@@ -7,10 +7,13 @@ date-format: "MMMM D, YYYY"
 categories: [Labor Markets, Data Visualization, CPS]
 image: /images/blog3/figure1_recent_earnings.png
 image-alt: "Weighted median annual earnings for Tech, Finance, Healthcare, and Other workers in 2022–2024."
+body-classes: blog3-post
 toc: true
 ---
 
 The [Forbes billionaires list](https://www.forbes.com/billionaires/) highlights extraordinary wealth associated with technology companies. Finance also has a reputation for high pay. But billionaire wealth comes largely from ownership, while most career decisions concern wages. **Do typical tech and finance workers earn more than people in other occupations? Is the advantage visible early in adulthood, and has it changed over time?**
+
+![](/images/blog3/rich_list_editorial.png){fig-alt="Pastel pink Finance scene on the left, blue Tech scene on the right, and a conceptual Billionaires List in the center."}
 
 ## From the survey to the comparison
 
@@ -22,15 +25,15 @@ Each median uses the CPS ASEC person weight (`ASECWT`) to describe the represent
 
 ## Which occupations pay more now?
 
-For income earned in 2024, Tech's weighted median was **$116,000**, versus **$98,000** in Finance, **$81,120** in Healthcare, and **$60,000** in Other. The 2024 estimates use 2,149 Tech and 1,722 Finance sample records. The figure puts 2022–2024 medians on a common 2024-dollar scale.
+For income earned in 2024, Tech's weighted median was **$116,000**, followed by **$98,000** in Finance, **$81,120** in Healthcare, and **$60,000** in Other. The 2024 estimates use 2,149 Tech and 1,722 Finance sample records. The boxplots put 2022–2024 incomes on a common 2024-dollar scale.
 
-![Tech leads the recent weighted annual earnings comparison. Amounts are in 2024 dollars.](/images/blog3/figure1_recent_earnings.png){fig-alt="Grouped bars for Tech, Finance, Healthcare, and Other in income years 2022, 2023, and 2024; Tech is highest in each year."}
+![Weighted earnings distributions for four occupation groups in 2022–2024. Boxes show the 25th to 75th percentiles, center lines the medians, and whiskers the 10th to 90th percentiles.](/images/blog3/figure1_recent_earnings.png){fig-alt="Grouped weighted boxplots for Tech, Finance, Healthcare, and Other in income years 2022, 2023, and 2024. All amounts in 2024 dollars."}
 
-Tech's real median was $116,800 in 2022 and $116,000 in 2024: a high level, with little change. Finance moved from $85,725 to $98,000, narrowing the gap. These are repeated cross sections, so changes can reflect who works in each group as well as changes in pay.
+Across all three years, the medians rank **Tech, Finance, Healthcare, then Other**. Tech stays near $116,000, while Finance rises each year from $85,725 to $98,000. Healthcare edges down; Other is roughly stable. Tech and Finance also have wider earnings distributions in dollar terms than Healthcare and Other, as shown by their larger interquartile ranges: in 2024, Tech's middle half runs from $75,000 to $160,000, versus $41,600 to $95,000 for Other. Finance's 90th percentile slightly exceeds Tech's, despite its lower median; the distributions overlap.
 
 ## Is the gap present early?
 
-Yes. Among respondents ages 25–29 in the pooled 2022–2024 data, Tech's median was **$96,441**, Finance's **$77,260**, and Other's **$50,363** in 2024 dollars. Tech remains the highest of the four groups at every plotted age. Its median generally rises through the late fifties, while Finance's path is less steady. Neither premium widens smoothly at every age.
+Yes. Among respondents ages 25–29 in the pooled 2022–2024 data, Tech's median was **$96,441**, Finance's **$77,260**, and Other's **$50,363** in 2024 dollars. Tech leads at every plotted age. The Tech–Finance gap is $19,181 at 25–29, $27,303 at 40–44, and $28,430 at 60–64. After ages 45–49, the gap widens across each successive age group, from $17,872 at 45–49 to $28,430 at 60–64. Different job mixes and cohorts can help explain the uneven pattern.
 
 ![Median earnings by five-year age group, pooled over income years 2022–2024.](/images/blog3/figure2_age_profiles.png){fig-alt="Four weighted age-earnings lines from ages 25–29 through 60–64; Tech is above Finance, Healthcare, and Other throughout."}
 
@@ -38,7 +41,7 @@ The lines compare *different people* at different ages. They cannot show how one
 
 ## Has the advantage changed since the 1970s?
 
-I measure each group's annual premium as its weighted median divided by the Other median, minus one. This same-year ratio avoids comparing nominal dollars across decades. In 1975, Tech's premium was **48.7%** and Finance's **27.3%**. By 2024 they were **93.3%** and **63.3%**, respectively. Both advantages are larger, but the lines fluctuate rather than climb each year.
+I measure each group's annual premium as its weighted median divided by the Other median, minus one. This same-year ratio avoids comparing nominal dollars across decades. In 1975, Tech's premium was **48.7%** and Finance's **27.3%**. By 2024 they were **93.3%** and **63.3%**. The gap between their premiums grew from **21.4** to **30.0 percentage points**. It fluctuated along the way; it did not widen every year.
 
 ![Tech and Finance median earnings premiums relative to Other, income years 1975–2024.](/images/blog3/figure3_long_run_premiums.png){fig-alt="Two annual premium lines: Tech rises from about 49 to 93 percent and Finance from about 27 to 63 percent, with fluctuations."}
 
@@ -46,8 +49,8 @@ The earlier Tech samples are smaller, and changes in occupational coding, income
 
 ## What should a career chooser take away?
 
-**Tech and Finance workers in this full-time, full-year sample earn more at the median than the broad Other group, and the gap is already visible at ages 25–29.** Tech leads Finance in the recent data and throughout the age profile. Their relative advantages are larger than in the 1970s, but the pattern is uneven. For a career decision, the useful fact is a population-level earnings comparison—not a promise of a particular salary or a causal return to entering either field.
+**Tech and Finance workers in this full-time, full-year sample earn more at the median than the broad Other group, and the gap is already visible at ages 25–29.** Tech leads Finance in the recent data and throughout the age profile. Their relative advantages are larger than in the 1970s, but the pattern is uneven. These group medians do not predict what any one person will earn.
 
 ::: {.source-note}
-**Source and replication.** [Flood et al., *IPUMS CPS: Version 13.0*](https://doi.org/10.18128/D030.V13.0), ASEC extract 1. See the accompanying `blog3repo` README, analysis code, results, and provenance record for definitions, sample counts, and reproducibility instructions. The authenticated CPS microdata are kept outside the public repository.
+**Source and replication.** [Flood et al., *IPUMS CPS: Version 13.0*](https://doi.org/10.18128/D030.V13.0), ASEC extract 1. See the [full replication guide](https://xia071212.github.io/blog3repo/replication-guide.html), [README](https://github.com/xia071212/blog3repo#readme), and analysis [repository](https://github.com/xia071212/blog3repo) for definitions, sample counts, code, and results. The authenticated CPS microdata are kept outside the public repository.
 :::

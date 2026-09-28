@@ -65,6 +65,25 @@ def verify(file,keys,data,value='INCWAGE',weight='ASECWT'):
 n1=verify('annual_earnings.csv',['income_year','group'],d)
 n2=verify('annual_age_earnings.csv',['income_year','group','age_group'],d)
 rec=d[d.income_year.ge(2022)].copy();rec['earnings_real']=rec.INCWAGE*rec.CPI99/cp[2025];rec['pooled_weight']=rec.ASECWT/3
+# Verify each boxplot quantile against an independently aggregated weighted CDF.
+distribution=pd.read_csv(base/'results/recent_earnings_distribution_2022_2024.csv').set_index(['income_year','group'])
+quantile_checks=0
+for key,g in rec.groupby(['income_year','group'],observed=True):
+ a=g.groupby('earnings_real',sort=True).ASECWT.sum();cdf=a.cumsum()/a.sum()
+ for name,q in [('p10',.10),('p25',.25),('p50',.50),('p75',.75),('p90',.90)]:
+  assert np.isclose(distribution.loc[key,name],float(cdf.index[cdf.ge(q)][0]),atol=1e-7,rtol=0)
+  quantile_checks+=1
+finance=rec[rec.group.eq('Finance') & rec.age_group.isin(['35-39','40-44','45-49'])]
+age_rows=[];composition=[]
+labels={r['code']:r['label'] for r in meta['occupations']}
+for (year,age),g in finance.groupby(['income_year','age_group'],observed=True):
+ age_rows.append({'income_year':year,'age_group':age,'n_unweighted':len(g),'weighted_median_2024_dollars':median(g,'earnings_real','ASECWT')})
+for age,g in finance.groupby('age_group',observed=True):
+ for code,cell in g.groupby('OCC10LY'):
+  composition.append({'age_group':age,'occupation_code':code,'occupation':labels[code],'n_unweighted':len(cell),'weighted_share':cell.ASECWT.sum()/g.ASECWT.sum(),'weighted_median_2024_dollars':median(cell,'earnings_real','ASECWT')})
+pd.DataFrame(age_rows).to_csv(out/'finance_age_by_year.csv',index=False)
+pd.DataFrame(composition).to_csv(out/'finance_age_occupation_composition.csv',index=False)
+(out/'boxplot_quantile_checks.json').write_text(json.dumps({'weighted_quantiles_verified':quantile_checks,'method':'Independent weighted empirical CDF on distinct earnings values','all_matched':True},indent=2))
 n3=verify('pooled_age_2022_2024.csv',['group','age_group'],rec,'earnings_real','pooled_weight')
 n4=verify('recent_earnings_2022_2024.csv',['income_year','group'],rec)
 latest=pd.read_csv(out/'verified_recent_earnings_2022_2024.csv')
