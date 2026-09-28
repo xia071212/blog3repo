@@ -44,8 +44,8 @@ author: "Yuting Xia"
 date: 2026-09-28
 date-format: "MMMM D, YYYY"
 categories: [Labor Markets, Data Visualization, CPS]
-image: /images/blog3/figure1_recent_earnings.png
-image-alt: "Weighted median annual earnings for Tech, Finance, Healthcare, and Other workers in 2022–2024."
+image: /images/blog3/rich_list_editorial.png
+image-alt: "Pastel Finance and Tech scenes with a Billionaires List in the center."
 body-classes: blog3-post
 toc: true
 ---
