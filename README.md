@@ -50,7 +50,3 @@ Read [Blog 3](https://xia071212.github.io/myrepo/blog/posts/post3/index.html). I
 - `results/sample_flow.csv`, `results/quality_flags_and_topcodes.csv`, and `results/audit/`: supporting data-quality checks.
 
 **Citation:** Sarah Flood, Miriam King, Renae Rodgers, Steven Ruggles, J. Robert Warren, Daniel Backman, Etienne Breton, Grace Cooper, Julia A. Rivera Drew, Stephanie Richards, David Van Riper, and Kari C. Williams. *IPUMS CPS: Version 13.0* [dataset]. Minneapolis, MN: IPUMS, 2025. https://doi.org/10.18128/D030.V13.0
-
-## Optional: update the article
-
-Article maintenance is separate from reproducing the research. After running the analysis, the author can update the article from the result tables with `python3 code/build_post.py --website-root ../myrepo1`. Rendering or publishing the website is not part of the replication workflow.
