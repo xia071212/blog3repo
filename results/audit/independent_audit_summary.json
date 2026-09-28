@@ -1,0 +1,21 @@
+{
+  "source_header_matches_ddi_30_fields": true,
+  "raw_records": 8580140,
+  "retained_records": 2191970,
+  "duplicate_person_year_records": 0,
+  "non_asec_rows": 0,
+  "out_of_range_year_rows": 0,
+  "observed_occupation_codes_not_in_ddi": [
+    400
+  ],
+  "verified_estimate_cells": 1844,
+  "median_and_population_and_count_checks": "all matched",
+  "premium_checks": 100,
+  "cpi99_recent": {
+    "2023": 0.569,
+    "2024": 0.547,
+    "2025": 0.531
+  },
+  "mean_annual_pooled_population": 97659543.09,
+  "sha256_matches_prior": true
+}

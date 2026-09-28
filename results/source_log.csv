@@ -1,0 +1,4 @@
+path,source_url,sha256,bytes
+data/raw/cps_00001.csv.gz,https://cps.ipums.org/cps-action/data_requests/download,1bda5f77809804052f18417b3eba80b55217d6b279362466f14ebfff1e43c291,168724342
+data/metadata/cps_00001.xml,https://cps.ipums.org/cps-action/data_requests/download,756751af9f510a254c6df7ff3963a4c5cf662043e1c68e1f2fd5661f69217c61,125135
+data/metadata/cps_1992-2002-occ2010-xwalk.xlsx,https://cps.ipums.org/cps/resources/occupation_and_industry/occ2010/cps_1992-2002-occ2010-xwalk.xlsx,32ccf276dff6b084901dd30e9f041a54d2f158ea57e4d83ab4996337f3f0b9cf,50072

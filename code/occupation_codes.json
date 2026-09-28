@@ -1,0 +1,2898 @@
+{
+  "source": "https://cps.ipums.org/cps-action/variables/OCC10LY",
+  "checked": "2026-09-28",
+  "finance_narrow_codes": [
+    120,
+    830,
+    840,
+    850,
+    910,
+    950,
+    4820
+  ],
+  "note": "Finance moderately expanded to 12 codes at user request; Tech has 13. Original 7-code Finance retained for sensitivity. Healthcare means managers, practitioners and technicians; includes veterinarians, excludes healthcare support.",
+  "occupations": [
+    {
+      "code": 10,
+      "display_code": "0010",
+      "label": "Chief executives and legislators",
+      "group": "Other"
+    },
+    {
+      "code": 20,
+      "display_code": "0020",
+      "label": "General and Operations Managers",
+      "group": "Other"
+    },
+    {
+      "code": 40,
+      "display_code": "0040",
+      "label": "Advertising and Promotions Managers",
+      "group": "Other"
+    },
+    {
+      "code": 50,
+      "display_code": "0050",
+      "label": "Marketing and Sales Managers",
+      "group": "Other"
+    },
+    {
+      "code": 60,
+      "display_code": "0060",
+      "label": "Public Relations and Fundraising Managers",
+      "group": "Other"
+    },
+    {
+      "code": 100,
+      "display_code": "0100",
+      "label": "Administrative Services Managers",
+      "group": "Other"
+    },
+    {
+      "code": 110,
+      "display_code": "0110",
+      "label": "Computer and Information Systems Managers",
+      "group": "Tech"
+    },
+    {
+      "code": 120,
+      "display_code": "0120",
+      "label": "Financial Managers",
+      "group": "Finance"
+    },
+    {
+      "code": 135,
+      "display_code": "0135",
+      "label": "Compensation and benefits managers",
+      "group": "Other"
+    },
+    {
+      "code": 136,
+      "display_code": "0136",
+      "label": "Human Resources Managers",
+      "group": "Other"
+    },
+    {
+      "code": 137,
+      "display_code": "0137",
+      "label": "Training and development managers",
+      "group": "Other"
+    },
+    {
+      "code": 140,
+      "display_code": "0140",
+      "label": "Industrial Production Managers",
+      "group": "Other"
+    },
+    {
+      "code": 150,
+      "display_code": "0150",
+      "label": "Purchasing Managers",
+      "group": "Other"
+    },
+    {
+      "code": 160,
+      "display_code": "0160",
+      "label": "Transportation, Storage, and Distribution Managers",
+      "group": "Other"
+    },
+    {
+      "code": 205,
+      "display_code": "0205",
+      "label": "Farmers, Ranchers, and Other Agricultural Managers",
+      "group": "Other"
+    },
+    {
+      "code": 220,
+      "display_code": "0220",
+      "label": "Construction Managers",
+      "group": "Other"
+    },
+    {
+      "code": 230,
+      "display_code": "0230",
+      "label": "Education Administrators",
+      "group": "Other"
+    },
+    {
+      "code": 300,
+      "display_code": "0300",
+      "label": "Architectural and Engineering Managers",
+      "group": "Other"
+    },
+    {
+      "code": 310,
+      "display_code": "0310",
+      "label": "Food Service Managers",
+      "group": "Other"
+    },
+    {
+      "code": 330,
+      "display_code": "0330",
+      "label": "Gaming Managers",
+      "group": "Other"
+    },
+    {
+      "code": 340,
+      "display_code": "0340",
+      "label": "Lodging Managers",
+      "group": "Other"
+    },
+    {
+      "code": 350,
+      "display_code": "0350",
+      "label": "Medical and Health Services Managers",
+      "group": "Healthcare"
+    },
+    {
+      "code": 360,
+      "display_code": "0360",
+      "label": "Natural Sciences Managers",
+      "group": "Other"
+    },
+    {
+      "code": 400,
+      "display_code": "0400",
+      "label": "Postmasters and Mail Superintendents",
+      "group": "Other",
+      "source": "https://cps.ipums.org/cps/resources/occupation_and_industry/occ2010/cps_1992-2002-occ2010-xwalk.xlsx",
+      "note": "Observed in ASEC 1992-1995; omitted from OCC10LY web/DDI category list but explicitly documented in official historical OCC2010 crosswalk. Raw OCCLY=016 in all observed records."
+    },
+    {
+      "code": 410,
+      "display_code": "0410",
+      "label": "Property, Real Estate, and Community Association Managers",
+      "group": "Other"
+    },
+    {
+      "code": 420,
+      "display_code": "0420",
+      "label": "Social and Community Service Managers",
+      "group": "Other"
+    },
+    {
+      "code": 425,
+      "display_code": "0425",
+      "label": "Emergency management directors",
+      "group": "Other"
+    },
+    {
+      "code": 430,
+      "display_code": "0430",
+      "label": "Miscellaneous managers, including funeral service managers and postmasters and mail superintendents",
+      "group": "Other"
+    },
+    {
+      "code": 500,
+      "display_code": "0500",
+      "label": "Agents and Business Managers of Artists, Performers, and Athletes",
+      "group": "Other"
+    },
+    {
+      "code": 510,
+      "display_code": "0510",
+      "label": "Buyers and Purchasing Agents, Farm Products",
+      "group": "Other"
+    },
+    {
+      "code": 520,
+      "display_code": "0520",
+      "label": "Wholesale and Retail Buyers, Except Farm Products",
+      "group": "Other"
+    },
+    {
+      "code": 530,
+      "display_code": "0530",
+      "label": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+      "group": "Other"
+    },
+    {
+      "code": 540,
+      "display_code": "0540",
+      "label": "Claims Adjusters, Appraisers, Examiners, and Investigators",
+      "group": "Other"
+    },
+    {
+      "code": 565,
+      "display_code": "0565",
+      "label": "Compliance Officers",
+      "group": "Other"
+    },
+    {
+      "code": 600,
+      "display_code": "0600",
+      "label": "Cost Estimators",
+      "group": "Other"
+    },
+    {
+      "code": 630,
+      "display_code": "0630",
+      "label": "Human Resources Workers",
+      "group": "Other"
+    },
+    {
+      "code": 640,
+      "display_code": "0640",
+      "label": "Compensation, benefits, and job analysis specialists",
+      "group": "Other"
+    },
+    {
+      "code": 650,
+      "display_code": "0650",
+      "label": "Training and development specialists",
+      "group": "Other"
+    },
+    {
+      "code": 700,
+      "display_code": "0700",
+      "label": "Logisticians",
+      "group": "Other"
+    },
+    {
+      "code": 710,
+      "display_code": "0710",
+      "label": "Management Analysts",
+      "group": "Other"
+    },
+    {
+      "code": 725,
+      "display_code": "0725",
+      "label": "Meeting, Convention, and Event Planners",
+      "group": "Other"
+    },
+    {
+      "code": 726,
+      "display_code": "0726",
+      "label": "Fundraisers",
+      "group": "Other"
+    },
+    {
+      "code": 735,
+      "display_code": "0735",
+      "label": "Market Research Analysts and Marketing Specialists",
+      "group": "Other"
+    },
+    {
+      "code": 740,
+      "display_code": "0740",
+      "label": "Business Operations Specialists, All Other",
+      "group": "Other"
+    },
+    {
+      "code": 800,
+      "display_code": "0800",
+      "label": "Accountants and Auditors",
+      "group": "Finance"
+    },
+    {
+      "code": 810,
+      "display_code": "0810",
+      "label": "Appraisers and Assessors of Real Estate",
+      "group": "Other"
+    },
+    {
+      "code": 820,
+      "display_code": "0820",
+      "label": "Budget Analysts",
+      "group": "Finance"
+    },
+    {
+      "code": 830,
+      "display_code": "0830",
+      "label": "Credit Analysts",
+      "group": "Finance"
+    },
+    {
+      "code": 840,
+      "display_code": "0840",
+      "label": "Financial Analysts",
+      "group": "Finance"
+    },
+    {
+      "code": 850,
+      "display_code": "0850",
+      "label": "Personal Financial Advisors",
+      "group": "Finance"
+    },
+    {
+      "code": 860,
+      "display_code": "0860",
+      "label": "Insurance Underwriters",
+      "group": "Finance"
+    },
+    {
+      "code": 900,
+      "display_code": "0900",
+      "label": "Financial Examiners",
+      "group": "Finance"
+    },
+    {
+      "code": 910,
+      "display_code": "0910",
+      "label": "Credit Counselors and Loan Officers",
+      "group": "Finance"
+    },
+    {
+      "code": 930,
+      "display_code": "0930",
+      "label": "Tax Examiners and Collectors, and Revenue Agents",
+      "group": "Other"
+    },
+    {
+      "code": 940,
+      "display_code": "0940",
+      "label": "Tax Preparers",
+      "group": "Other"
+    },
+    {
+      "code": 950,
+      "display_code": "0950",
+      "label": "Financial Specialists, All Other",
+      "group": "Finance"
+    },
+    {
+      "code": 1005,
+      "display_code": "1005",
+      "label": "Computer and information research scientists",
+      "group": "Tech"
+    },
+    {
+      "code": 1006,
+      "display_code": "1006",
+      "label": "Computer Systems Analysts",
+      "group": "Tech"
+    },
+    {
+      "code": 1007,
+      "display_code": "1007",
+      "label": "Information security analysts",
+      "group": "Tech"
+    },
+    {
+      "code": 1010,
+      "display_code": "1010",
+      "label": "Computer Programmers",
+      "group": "Tech"
+    },
+    {
+      "code": 1020,
+      "display_code": "1020",
+      "label": "Software Developers, Applications and Systems Software",
+      "group": "Tech"
+    },
+    {
+      "code": 1030,
+      "display_code": "1030",
+      "label": "Web Developers",
+      "group": "Tech"
+    },
+    {
+      "code": 1050,
+      "display_code": "1050",
+      "label": "Computer Support Specialists",
+      "group": "Tech"
+    },
+    {
+      "code": 1060,
+      "display_code": "1060",
+      "label": "Database Administrators",
+      "group": "Tech"
+    },
+    {
+      "code": 1105,
+      "display_code": "1105",
+      "label": "Network and Computer Systems Administrators",
+      "group": "Tech"
+    },
+    {
+      "code": 1106,
+      "display_code": "1106",
+      "label": "Computer network architects",
+      "group": "Tech"
+    },
+    {
+      "code": 1107,
+      "display_code": "1107",
+      "label": "Computer occupations, all other",
+      "group": "Tech"
+    },
+    {
+      "code": 1200,
+      "display_code": "1200",
+      "label": "Actuaries",
+      "group": "Other"
+    },
+    {
+      "code": 1220,
+      "display_code": "1220",
+      "label": "Operations Research Analysts",
+      "group": "Other"
+    },
+    {
+      "code": 1240,
+      "display_code": "1240",
+      "label": "Miscellaneous mathematical science occupations, including mathematicians and statisticians",
+      "group": "Other"
+    },
+    {
+      "code": 1300,
+      "display_code": "1300",
+      "label": "Architects, Except Naval",
+      "group": "Other"
+    },
+    {
+      "code": 1310,
+      "display_code": "1310",
+      "label": "Surveyors, Cartographers, and Photogrammetrists",
+      "group": "Other"
+    },
+    {
+      "code": 1320,
+      "display_code": "1320",
+      "label": "Aerospace Engineers",
+      "group": "Other"
+    },
+    {
+      "code": 1340,
+      "display_code": "1340",
+      "label": "Biomedical and agricultural engineers",
+      "group": "Other"
+    },
+    {
+      "code": 1350,
+      "display_code": "1350",
+      "label": "Chemical Engineers",
+      "group": "Other"
+    },
+    {
+      "code": 1360,
+      "display_code": "1360",
+      "label": "Civil Engineers",
+      "group": "Other"
+    },
+    {
+      "code": 1400,
+      "display_code": "1400",
+      "label": "Computer Hardware Engineers",
+      "group": "Tech"
+    },
+    {
+      "code": 1410,
+      "display_code": "1410",
+      "label": "Electrical and Electronics Engineers",
+      "group": "Other"
+    },
+    {
+      "code": 1420,
+      "display_code": "1420",
+      "label": "Environmental Engineers",
+      "group": "Other"
+    },
+    {
+      "code": 1430,
+      "display_code": "1430",
+      "label": "Industrial Engineers, including Health and Safety",
+      "group": "Other"
+    },
+    {
+      "code": 1440,
+      "display_code": "1440",
+      "label": "Marine Engineers and Naval Architects",
+      "group": "Other"
+    },
+    {
+      "code": 1450,
+      "display_code": "1450",
+      "label": "Materials Engineers",
+      "group": "Other"
+    },
+    {
+      "code": 1460,
+      "display_code": "1460",
+      "label": "Mechanical Engineers",
+      "group": "Other"
+    },
+    {
+      "code": 1520,
+      "display_code": "1520",
+      "label": "Petroleum, mining and geological engineers, including mining safety engineers",
+      "group": "Other"
+    },
+    {
+      "code": 1530,
+      "display_code": "1530",
+      "label": "Miscellaneous engineers, including nuclear engineers",
+      "group": "Other"
+    },
+    {
+      "code": 1540,
+      "display_code": "1540",
+      "label": "Drafters",
+      "group": "Other"
+    },
+    {
+      "code": 1550,
+      "display_code": "1550",
+      "label": "Engineering Technicians, Except Drafters",
+      "group": "Other"
+    },
+    {
+      "code": 1560,
+      "display_code": "1560",
+      "label": "Surveying and Mapping Technicians",
+      "group": "Other"
+    },
+    {
+      "code": 1600,
+      "display_code": "1600",
+      "label": "Agricultural and Food Scientists",
+      "group": "Other"
+    },
+    {
+      "code": 1610,
+      "display_code": "1610",
+      "label": "Biological Scientists",
+      "group": "Other"
+    },
+    {
+      "code": 1640,
+      "display_code": "1640",
+      "label": "Conservation Scientists and Foresters",
+      "group": "Other"
+    },
+    {
+      "code": 1650,
+      "display_code": "1650",
+      "label": "Medical scientists, and life scientists, all other",
+      "group": "Other"
+    },
+    {
+      "code": 1700,
+      "display_code": "1700",
+      "label": "Astronomers and Physicists",
+      "group": "Other"
+    },
+    {
+      "code": 1710,
+      "display_code": "1710",
+      "label": "Atmospheric and Space Scientists",
+      "group": "Other"
+    },
+    {
+      "code": 1720,
+      "display_code": "1720",
+      "label": "Chemists and Materials Scientists",
+      "group": "Other"
+    },
+    {
+      "code": 1740,
+      "display_code": "1740",
+      "label": "Environmental Scientists and Geoscientists",
+      "group": "Other"
+    },
+    {
+      "code": 1760,
+      "display_code": "1760",
+      "label": "Physical Scientists, All Other",
+      "group": "Other"
+    },
+    {
+      "code": 1800,
+      "display_code": "1800",
+      "label": "Economists",
+      "group": "Other"
+    },
+    {
+      "code": 1820,
+      "display_code": "1820",
+      "label": "Psychologists",
+      "group": "Other"
+    },
+    {
+      "code": 1840,
+      "display_code": "1840",
+      "label": "Urban and Regional Planners",
+      "group": "Other"
+    },
+    {
+      "code": 1860,
+      "display_code": "1860",
+      "label": "Miscellaneous social scientists, including survey researchers and sociologists",
+      "group": "Other"
+    },
+    {
+      "code": 1900,
+      "display_code": "1900",
+      "label": "Agricultural and Food Science Technicians",
+      "group": "Other"
+    },
+    {
+      "code": 1910,
+      "display_code": "1910",
+      "label": "Biological Technicians",
+      "group": "Other"
+    },
+    {
+      "code": 1920,
+      "display_code": "1920",
+      "label": "Chemical Technicians",
+      "group": "Other"
+    },
+    {
+      "code": 1930,
+      "display_code": "1930",
+      "label": "Geological and petroleum technicians, and nuclear technicians",
+      "group": "Other"
+    },
+    {
+      "code": 1965,
+      "display_code": "1965",
+      "label": "Miscellaneous life, physical, and social science technicians, including social science research assistants",
+      "group": "Other"
+    },
+    {
+      "code": 2000,
+      "display_code": "2000",
+      "label": "Counselors",
+      "group": "Other"
+    },
+    {
+      "code": 2010,
+      "display_code": "2010",
+      "label": "Social Workers",
+      "group": "Other"
+    },
+    {
+      "code": 2015,
+      "display_code": "2015",
+      "label": "Probation officers and correctional treatment specialists",
+      "group": "Other"
+    },
+    {
+      "code": 2016,
+      "display_code": "2016",
+      "label": "Social and human service assistants",
+      "group": "Other"
+    },
+    {
+      "code": 2025,
+      "display_code": "2025",
+      "label": "Miscellaneous community and social service specialists, including health educators and community health workers",
+      "group": "Other"
+    },
+    {
+      "code": 2040,
+      "display_code": "2040",
+      "label": "Clergy",
+      "group": "Other"
+    },
+    {
+      "code": 2050,
+      "display_code": "2050",
+      "label": "Directors, Religious Activities and Education",
+      "group": "Other"
+    },
+    {
+      "code": 2060,
+      "display_code": "2060",
+      "label": "Religious Workers, All Other",
+      "group": "Other"
+    },
+    {
+      "code": 2100,
+      "display_code": "2100",
+      "label": "Lawyers, and judges, magistrates, and other judicial workers",
+      "group": "Other"
+    },
+    {
+      "code": 2105,
+      "display_code": "2105",
+      "label": "Judicial law clerks",
+      "group": "Other"
+    },
+    {
+      "code": 2145,
+      "display_code": "2145",
+      "label": "Paralegals and Legal Assistants",
+      "group": "Other"
+    },
+    {
+      "code": 2160,
+      "display_code": "2160",
+      "label": "Miscellaneous Legal Support Workers",
+      "group": "Other"
+    },
+    {
+      "code": 2200,
+      "display_code": "2200",
+      "label": "Postsecondary Teachers",
+      "group": "Other"
+    },
+    {
+      "code": 2300,
+      "display_code": "2300",
+      "label": "Preschool and Kindergarten Teachers",
+      "group": "Other"
+    },
+    {
+      "code": 2310,
+      "display_code": "2310",
+      "label": "Elementary and Middle School Teachers",
+      "group": "Other"
+    },
+    {
+      "code": 2320,
+      "display_code": "2320",
+      "label": "Secondary School Teachers",
+      "group": "Other"
+    },
+    {
+      "code": 2330,
+      "display_code": "2330",
+      "label": "Special Education Teachers",
+      "group": "Other"
+    },
+    {
+      "code": 2340,
+      "display_code": "2340",
+      "label": "Other Teachers and Instructors",
+      "group": "Other"
+    },
+    {
+      "code": 2400,
+      "display_code": "2400",
+      "label": "Archivists, Curators, and Museum Technicians",
+      "group": "Other"
+    },
+    {
+      "code": 2430,
+      "display_code": "2430",
+      "label": "Librarians",
+      "group": "Other"
+    },
+    {
+      "code": 2440,
+      "display_code": "2440",
+      "label": "Library Technicians",
+      "group": "Other"
+    },
+    {
+      "code": 2540,
+      "display_code": "2540",
+      "label": "Teacher Assistants",
+      "group": "Other"
+    },
+    {
+      "code": 2550,
+      "display_code": "2550",
+      "label": "Other Education, Training, and Library Workers",
+      "group": "Other"
+    },
+    {
+      "code": 2600,
+      "display_code": "2600",
+      "label": "Artists and Related Workers",
+      "group": "Other"
+    },
+    {
+      "code": 2630,
+      "display_code": "2630",
+      "label": "Designers",
+      "group": "Other"
+    },
+    {
+      "code": 2700,
+      "display_code": "2700",
+      "label": "Actors",
+      "group": "Other"
+    },
+    {
+      "code": 2710,
+      "display_code": "2710",
+      "label": "Producers and Directors",
+      "group": "Other"
+    },
+    {
+      "code": 2720,
+      "display_code": "2720",
+      "label": "Athletes, Coaches, Umpires, and Related Workers",
+      "group": "Other"
+    },
+    {
+      "code": 2740,
+      "display_code": "2740",
+      "label": "Dancers and Choreographers",
+      "group": "Other"
+    },
+    {
+      "code": 2750,
+      "display_code": "2750",
+      "label": "Musicians, Singers, and Related Workers",
+      "group": "Other"
+    },
+    {
+      "code": 2760,
+      "display_code": "2760",
+      "label": "Entertainers and Performers, Sports and Related Workers, All Other",
+      "group": "Other"
+    },
+    {
+      "code": 2800,
+      "display_code": "2800",
+      "label": "Announcers",
+      "group": "Other"
+    },
+    {
+      "code": 2810,
+      "display_code": "2810",
+      "label": "News Analysts, Reporters and Correspondents",
+      "group": "Other"
+    },
+    {
+      "code": 2825,
+      "display_code": "2825",
+      "label": "Public Relations Specialists",
+      "group": "Other"
+    },
+    {
+      "code": 2830,
+      "display_code": "2830",
+      "label": "Editors",
+      "group": "Other"
+    },
+    {
+      "code": 2840,
+      "display_code": "2840",
+      "label": "Technical Writers",
+      "group": "Other"
+    },
+    {
+      "code": 2850,
+      "display_code": "2850",
+      "label": "Writers and Authors",
+      "group": "Other"
+    },
+    {
+      "code": 2860,
+      "display_code": "2860",
+      "label": "Miscellaneous Media and Communication Workers",
+      "group": "Other"
+    },
+    {
+      "code": 2900,
+      "display_code": "2900",
+      "label": "Broadcast and sound engineering technicians and radio operators, and media and communication equipment workers, all other",
+      "group": "Other"
+    },
+    {
+      "code": 2910,
+      "display_code": "2910",
+      "label": "Photographers",
+      "group": "Other"
+    },
+    {
+      "code": 2920,
+      "display_code": "2920",
+      "label": "Television, Video, and Motion Picture Camera Operators and Editors",
+      "group": "Other"
+    },
+    {
+      "code": 3000,
+      "display_code": "3000",
+      "label": "Chiropractors",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3010,
+      "display_code": "3010",
+      "label": "Dentists",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3030,
+      "display_code": "3030",
+      "label": "Dietitians and Nutritionists",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3040,
+      "display_code": "3040",
+      "label": "Optometrists",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3050,
+      "display_code": "3050",
+      "label": "Pharmacists",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3060,
+      "display_code": "3060",
+      "label": "Physicians and Surgeons",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3110,
+      "display_code": "3110",
+      "label": "Physician Assistants",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3120,
+      "display_code": "3120",
+      "label": "Podiatrists",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3140,
+      "display_code": "3140",
+      "label": "Audiologists",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3150,
+      "display_code": "3150",
+      "label": "Occupational Therapists",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3160,
+      "display_code": "3160",
+      "label": "Physical Therapists",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3200,
+      "display_code": "3200",
+      "label": "Radiation Therapists",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3210,
+      "display_code": "3210",
+      "label": "Recreational Therapists",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3220,
+      "display_code": "3220",
+      "label": "Respiratory Therapists",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3230,
+      "display_code": "3230",
+      "label": "Speech-Language Pathologists",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3245,
+      "display_code": "3245",
+      "label": "Other therapists, including exercise physiologists",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3250,
+      "display_code": "3250",
+      "label": "Veterinarians",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3255,
+      "display_code": "3255",
+      "label": "Registered Nurses",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3256,
+      "display_code": "3256",
+      "label": "Nurse anesthetists",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3258,
+      "display_code": "3258",
+      "label": "Nurse practitioners and nurse midwives",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3260,
+      "display_code": "3260",
+      "label": "Health Diagnosing and Treating Practitioners, All Other",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3300,
+      "display_code": "3300",
+      "label": "Clinical Laboratory Technologists and Technicians",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3310,
+      "display_code": "3310",
+      "label": "Dental Hygienists",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3320,
+      "display_code": "3320",
+      "label": "Diagnostic Related Technologists and Technicians",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3400,
+      "display_code": "3400",
+      "label": "Emergency Medical Technicians and Paramedics",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3420,
+      "display_code": "3420",
+      "label": "Health Practitioner Support Technologists and  Technicians",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3500,
+      "display_code": "3500",
+      "label": "Licensed Practical and Licensed Vocational Nurses",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3510,
+      "display_code": "3510",
+      "label": "Medical Records and Health Information Technicians",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3520,
+      "display_code": "3520",
+      "label": "Opticians, Dispensing",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3535,
+      "display_code": "3535",
+      "label": "Miscellaneous Health Technologists and Technicians",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3540,
+      "display_code": "3540",
+      "label": "Other Healthcare Practitioners and Technical Occupations",
+      "group": "Healthcare"
+    },
+    {
+      "code": 3600,
+      "display_code": "3600",
+      "label": "Nursing, Psychiatric, and Home Health Aides",
+      "group": "Other"
+    },
+    {
+      "code": 3610,
+      "display_code": "3610",
+      "label": "Occupational Therapy Assistants and Aides",
+      "group": "Other"
+    },
+    {
+      "code": 3620,
+      "display_code": "3620",
+      "label": "Physical Therapist Assistants and Aides",
+      "group": "Other"
+    },
+    {
+      "code": 3630,
+      "display_code": "3630",
+      "label": "Massage Therapists",
+      "group": "Other"
+    },
+    {
+      "code": 3640,
+      "display_code": "3640",
+      "label": "Dental Assistants",
+      "group": "Other"
+    },
+    {
+      "code": 3645,
+      "display_code": "3645",
+      "label": "Medical Assistants",
+      "group": "Other"
+    },
+    {
+      "code": 3646,
+      "display_code": "3646",
+      "label": "Medical transcriptionists",
+      "group": "Other"
+    },
+    {
+      "code": 3647,
+      "display_code": "3647",
+      "label": "Pharmacy aides",
+      "group": "Other"
+    },
+    {
+      "code": 3648,
+      "display_code": "3648",
+      "label": "Veterinary assistants and laboratory animal caretakers",
+      "group": "Other"
+    },
+    {
+      "code": 3649,
+      "display_code": "3649",
+      "label": "Phlebotomists",
+      "group": "Other"
+    },
+    {
+      "code": 3655,
+      "display_code": "3655",
+      "label": "Healthcare support workers, all other, including medical equipment preparers",
+      "group": "Other"
+    },
+    {
+      "code": 3700,
+      "display_code": "3700",
+      "label": "First-Line Supervisors of Correctional Officers",
+      "group": "Other"
+    },
+    {
+      "code": 3710,
+      "display_code": "3710",
+      "label": "First-Line Supervisors of Police and Detectives",
+      "group": "Other"
+    },
+    {
+      "code": 3720,
+      "display_code": "3720",
+      "label": "First-Line Supervisors of Fire Fighting and Prevention Workers",
+      "group": "Other"
+    },
+    {
+      "code": 3730,
+      "display_code": "3730",
+      "label": "First-Line Supervisors of Protective Service Workers, All Other",
+      "group": "Other"
+    },
+    {
+      "code": 3740,
+      "display_code": "3740",
+      "label": "Firefighters",
+      "group": "Other"
+    },
+    {
+      "code": 3750,
+      "display_code": "3750",
+      "label": "Fire Inspectors",
+      "group": "Other"
+    },
+    {
+      "code": 3800,
+      "display_code": "3800",
+      "label": "Bailiffs, Correctional Officers, and Jailers",
+      "group": "Other"
+    },
+    {
+      "code": 3820,
+      "display_code": "3820",
+      "label": "Detectives and Criminal Investigators",
+      "group": "Other"
+    },
+    {
+      "code": 3840,
+      "display_code": "3840",
+      "label": "Miscellaneous law enforcement workers",
+      "group": "Other"
+    },
+    {
+      "code": 3850,
+      "display_code": "3850",
+      "label": "Police officers",
+      "group": "Other"
+    },
+    {
+      "code": 3900,
+      "display_code": "3900",
+      "label": "Animal Control Workers",
+      "group": "Other"
+    },
+    {
+      "code": 3910,
+      "display_code": "3910",
+      "label": "Private Detectives and Investigators",
+      "group": "Other"
+    },
+    {
+      "code": 3930,
+      "display_code": "3930",
+      "label": "Security Guards and Gaming Surveillance Officers",
+      "group": "Other"
+    },
+    {
+      "code": 3940,
+      "display_code": "3940",
+      "label": "Crossing Guards",
+      "group": "Other"
+    },
+    {
+      "code": 3945,
+      "display_code": "3945",
+      "label": "Transportation security screeners",
+      "group": "Other"
+    },
+    {
+      "code": 3955,
+      "display_code": "3955",
+      "label": "Lifeguards and Other Recreational, and All Other Protective Service Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4000,
+      "display_code": "4000",
+      "label": "Chefs and Head Cooks",
+      "group": "Other"
+    },
+    {
+      "code": 4010,
+      "display_code": "4010",
+      "label": "First-Line Supervisors of Food Preparation and Serving Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4020,
+      "display_code": "4020",
+      "label": "Cooks",
+      "group": "Other"
+    },
+    {
+      "code": 4030,
+      "display_code": "4030",
+      "label": "Food Preparation Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4040,
+      "display_code": "4040",
+      "label": "Bartenders",
+      "group": "Other"
+    },
+    {
+      "code": 4050,
+      "display_code": "4050",
+      "label": "Combined Food Preparation and Serving Workers, Including Fast Food",
+      "group": "Other"
+    },
+    {
+      "code": 4060,
+      "display_code": "4060",
+      "label": "Counter Attendants, Cafeteria, Food Concession, and Coffee Shop",
+      "group": "Other"
+    },
+    {
+      "code": 4110,
+      "display_code": "4110",
+      "label": "Waiters and Waitresses",
+      "group": "Other"
+    },
+    {
+      "code": 4120,
+      "display_code": "4120",
+      "label": "Food Servers, Nonrestaurant",
+      "group": "Other"
+    },
+    {
+      "code": 4130,
+      "display_code": "4130",
+      "label": "Miscellaneous food preparation and serving related workers, including dining room and cafeteria attendants and bartender helpers",
+      "group": "Other"
+    },
+    {
+      "code": 4140,
+      "display_code": "4140",
+      "label": "Dishwashers",
+      "group": "Other"
+    },
+    {
+      "code": 4150,
+      "display_code": "4150",
+      "label": "Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",
+      "group": "Other"
+    },
+    {
+      "code": 4200,
+      "display_code": "4200",
+      "label": "First-Line Supervisors of Housekeeping and Janitorial Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4210,
+      "display_code": "4210",
+      "label": "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4220,
+      "display_code": "4220",
+      "label": "Janitors and Building Cleaners",
+      "group": "Other"
+    },
+    {
+      "code": 4230,
+      "display_code": "4230",
+      "label": "Maids and housekeeping cleaners",
+      "group": "Other"
+    },
+    {
+      "code": 4240,
+      "display_code": "4240",
+      "label": "Pest Control Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4250,
+      "display_code": "4250",
+      "label": "Grounds Maintenance Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4300,
+      "display_code": "4300",
+      "label": "First-Line Supervisors of Gaming Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4320,
+      "display_code": "4320",
+      "label": "First-Line Supervisors of Personal Service Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4340,
+      "display_code": "4340",
+      "label": "Animal Trainers",
+      "group": "Other"
+    },
+    {
+      "code": 4350,
+      "display_code": "4350",
+      "label": "Nonfarm Animal Caretakers",
+      "group": "Other"
+    },
+    {
+      "code": 4400,
+      "display_code": "4400",
+      "label": "Gaming Services Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4410,
+      "display_code": "4410",
+      "label": "Motion Picture Projectionists",
+      "group": "Other"
+    },
+    {
+      "code": 4420,
+      "display_code": "4420",
+      "label": "Ushers, Lobby Attendants, and Ticket Takers",
+      "group": "Other"
+    },
+    {
+      "code": 4430,
+      "display_code": "4430",
+      "label": "Miscellaneous Entertainment Attendants and Related Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4460,
+      "display_code": "4460",
+      "label": "Embalmers and Funeral Attendants",
+      "group": "Other"
+    },
+    {
+      "code": 4465,
+      "display_code": "4465",
+      "label": "Morticians, undertakers, and funeral directors",
+      "group": "Other"
+    },
+    {
+      "code": 4500,
+      "display_code": "4500",
+      "label": "Barbers",
+      "group": "Other"
+    },
+    {
+      "code": 4510,
+      "display_code": "4510",
+      "label": "Hairdressers, Hairstylists, and Cosmetologists",
+      "group": "Other"
+    },
+    {
+      "code": 4520,
+      "display_code": "4520",
+      "label": "Miscellaneous Personal Appearance Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4530,
+      "display_code": "4530",
+      "label": "Baggage Porters, Bellhops, and Concierges",
+      "group": "Other"
+    },
+    {
+      "code": 4540,
+      "display_code": "4540",
+      "label": "Tour and Travel Guides",
+      "group": "Other"
+    },
+    {
+      "code": 4600,
+      "display_code": "4600",
+      "label": "Childcare Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4610,
+      "display_code": "4610",
+      "label": "Personal Care Aides",
+      "group": "Other"
+    },
+    {
+      "code": 4620,
+      "display_code": "4620",
+      "label": "Recreation and Fitness Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4640,
+      "display_code": "4640",
+      "label": "Residential Advisors",
+      "group": "Other"
+    },
+    {
+      "code": 4650,
+      "display_code": "4650",
+      "label": "Personal Care and Service Workers, All Other",
+      "group": "Other"
+    },
+    {
+      "code": 4700,
+      "display_code": "4700",
+      "label": "First-Line Supervisors of Retail Sales Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4710,
+      "display_code": "4710",
+      "label": "First-Line Supervisors of Non-Retail Sales Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4720,
+      "display_code": "4720",
+      "label": "Cashiers",
+      "group": "Other"
+    },
+    {
+      "code": 4740,
+      "display_code": "4740",
+      "label": "Counter and Rental Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 4750,
+      "display_code": "4750",
+      "label": "Parts Salespersons",
+      "group": "Other"
+    },
+    {
+      "code": 4760,
+      "display_code": "4760",
+      "label": "Retail Salespersons",
+      "group": "Other"
+    },
+    {
+      "code": 4800,
+      "display_code": "4800",
+      "label": "Advertising Sales Agents",
+      "group": "Other"
+    },
+    {
+      "code": 4810,
+      "display_code": "4810",
+      "label": "Insurance Sales Agents",
+      "group": "Finance"
+    },
+    {
+      "code": 4820,
+      "display_code": "4820",
+      "label": "Securities, Commodities, and Financial Services Sales Agents",
+      "group": "Finance"
+    },
+    {
+      "code": 4830,
+      "display_code": "4830",
+      "label": "Travel Agents",
+      "group": "Other"
+    },
+    {
+      "code": 4840,
+      "display_code": "4840",
+      "label": "Sales Representatives, Services, All Other",
+      "group": "Other"
+    },
+    {
+      "code": 4850,
+      "display_code": "4850",
+      "label": "Sales Representatives, Wholesale and Manufacturing",
+      "group": "Other"
+    },
+    {
+      "code": 4900,
+      "display_code": "4900",
+      "label": "Models, Demonstrators, and Product Promoters",
+      "group": "Other"
+    },
+    {
+      "code": 4920,
+      "display_code": "4920",
+      "label": "Real Estate Brokers and Sales Agents",
+      "group": "Other"
+    },
+    {
+      "code": 4930,
+      "display_code": "4930",
+      "label": "Sales Engineers",
+      "group": "Other"
+    },
+    {
+      "code": 4940,
+      "display_code": "4940",
+      "label": "Telemarketers",
+      "group": "Other"
+    },
+    {
+      "code": 4950,
+      "display_code": "4950",
+      "label": "Door-to-Door Sales Workers, News and Street Vendors, and Related Workers",
+      "group": "Other"
+    },
+    {
+      "code": 4965,
+      "display_code": "4965",
+      "label": "Sales and Related Workers, All Other",
+      "group": "Other"
+    },
+    {
+      "code": 5000,
+      "display_code": "5000",
+      "label": "First-Line Supervisors of Office and Administrative Support Workers",
+      "group": "Other"
+    },
+    {
+      "code": 5010,
+      "display_code": "5010",
+      "label": "Switchboard Operators, Including Answering Service",
+      "group": "Other"
+    },
+    {
+      "code": 5020,
+      "display_code": "5020",
+      "label": "Telephone Operators",
+      "group": "Other"
+    },
+    {
+      "code": 5030,
+      "display_code": "5030",
+      "label": "Communications Equipment Operators, All Other",
+      "group": "Other"
+    },
+    {
+      "code": 5100,
+      "display_code": "5100",
+      "label": "Bill and Account Collectors",
+      "group": "Other"
+    },
+    {
+      "code": 5110,
+      "display_code": "5110",
+      "label": "Billing and Posting Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5120,
+      "display_code": "5120",
+      "label": "Bookkeeping, Accounting, and Auditing Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5130,
+      "display_code": "5130",
+      "label": "Gaming Cage Workers",
+      "group": "Other"
+    },
+    {
+      "code": 5140,
+      "display_code": "5140",
+      "label": "Payroll and Timekeeping Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5150,
+      "display_code": "5150",
+      "label": "Procurement Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5160,
+      "display_code": "5160",
+      "label": "Tellers",
+      "group": "Other"
+    },
+    {
+      "code": 5165,
+      "display_code": "5165",
+      "label": "Financial clerks, all other",
+      "group": "Other"
+    },
+    {
+      "code": 5200,
+      "display_code": "5200",
+      "label": "Brokerage Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5220,
+      "display_code": "5220",
+      "label": "Court, Municipal, and License Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5230,
+      "display_code": "5230",
+      "label": "Credit Authorizers, Checkers, and Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5240,
+      "display_code": "5240",
+      "label": "Customer Service Representatives",
+      "group": "Other"
+    },
+    {
+      "code": 5250,
+      "display_code": "5250",
+      "label": "Eligibility Interviewers, Government Programs",
+      "group": "Other"
+    },
+    {
+      "code": 5260,
+      "display_code": "5260",
+      "label": "File Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5300,
+      "display_code": "5300",
+      "label": "Hotel, Motel, and Resort Desk Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5310,
+      "display_code": "5310",
+      "label": "Interviewers, Except Eligibility and Loan",
+      "group": "Other"
+    },
+    {
+      "code": 5320,
+      "display_code": "5320",
+      "label": "Library Assistants, Clerical",
+      "group": "Other"
+    },
+    {
+      "code": 5330,
+      "display_code": "5330",
+      "label": "Loan Interviewers and Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5340,
+      "display_code": "5340",
+      "label": "New Accounts Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5350,
+      "display_code": "5350",
+      "label": "Correspondence clerks and order clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5360,
+      "display_code": "5360",
+      "label": "Human resources assistants, except payroll and timekeeping",
+      "group": "Other"
+    },
+    {
+      "code": 5400,
+      "display_code": "5400",
+      "label": "Receptionists and Information Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5410,
+      "display_code": "5410",
+      "label": "Reservation and Transportation Ticket Agents and Travel Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5420,
+      "display_code": "5420",
+      "label": "Information and Record Clerks, All Other",
+      "group": "Other"
+    },
+    {
+      "code": 5500,
+      "display_code": "5500",
+      "label": "Cargo and Freight Agents",
+      "group": "Other"
+    },
+    {
+      "code": 5510,
+      "display_code": "5510",
+      "label": "Couriers and Messengers",
+      "group": "Other"
+    },
+    {
+      "code": 5520,
+      "display_code": "5520",
+      "label": "Dispatchers",
+      "group": "Other"
+    },
+    {
+      "code": 5530,
+      "display_code": "5530",
+      "label": "Meter Readers, Utilities",
+      "group": "Other"
+    },
+    {
+      "code": 5540,
+      "display_code": "5540",
+      "label": "Postal Service Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5550,
+      "display_code": "5550",
+      "label": "Postal Service Mail Carriers",
+      "group": "Other"
+    },
+    {
+      "code": 5560,
+      "display_code": "5560",
+      "label": "Postal Service Mail Sorters, Processors, and Processing Machine Operators",
+      "group": "Other"
+    },
+    {
+      "code": 5600,
+      "display_code": "5600",
+      "label": "Production, Planning, and Expediting Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5610,
+      "display_code": "5610",
+      "label": "Shipping, Receiving, and Traffic Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5620,
+      "display_code": "5620",
+      "label": "Stock Clerks and Order Fillers",
+      "group": "Other"
+    },
+    {
+      "code": 5630,
+      "display_code": "5630",
+      "label": "Weighers, Measurers, Checkers, and Samplers, Recordkeeping",
+      "group": "Other"
+    },
+    {
+      "code": 5700,
+      "display_code": "5700",
+      "label": "Secretaries and Administrative Assistants",
+      "group": "Other"
+    },
+    {
+      "code": 5800,
+      "display_code": "5800",
+      "label": "Computer Operators",
+      "group": "Other"
+    },
+    {
+      "code": 5810,
+      "display_code": "5810",
+      "label": "Data Entry Keyers",
+      "group": "Other"
+    },
+    {
+      "code": 5820,
+      "display_code": "5820",
+      "label": "Word Processors and Typists",
+      "group": "Other"
+    },
+    {
+      "code": 5840,
+      "display_code": "5840",
+      "label": "Insurance Claims and Policy Processing Clerks",
+      "group": "Other"
+    },
+    {
+      "code": 5850,
+      "display_code": "5850",
+      "label": "Mail Clerks and Mail Machine Operators, Except Postal Service",
+      "group": "Other"
+    },
+    {
+      "code": 5860,
+      "display_code": "5860",
+      "label": "Office Clerks, General",
+      "group": "Other"
+    },
+    {
+      "code": 5900,
+      "display_code": "5900",
+      "label": "Office Machine Operators, Except Computer",
+      "group": "Other"
+    },
+    {
+      "code": 5910,
+      "display_code": "5910",
+      "label": "Proofreaders and Copy Markers",
+      "group": "Other"
+    },
+    {
+      "code": 5920,
+      "display_code": "5920",
+      "label": "Statistical Assistants",
+      "group": "Other"
+    },
+    {
+      "code": 5940,
+      "display_code": "5940",
+      "label": "Miscellaneous office and administrative support workers, including desktop publishers",
+      "group": "Other"
+    },
+    {
+      "code": 6005,
+      "display_code": "6005",
+      "label": "First-line supervisors of farming, fishing, and forestry workers",
+      "group": "Other"
+    },
+    {
+      "code": 6010,
+      "display_code": "6010",
+      "label": "Agricultural Inspectors",
+      "group": "Other"
+    },
+    {
+      "code": 6040,
+      "display_code": "6040",
+      "label": "Graders and Sorters, Agricultural Products",
+      "group": "Other"
+    },
+    {
+      "code": 6050,
+      "display_code": "6050",
+      "label": "Miscellaneous agricultural workers, including animal breeders",
+      "group": "Other"
+    },
+    {
+      "code": 6100,
+      "display_code": "6100",
+      "label": "Fishing and hunting workers",
+      "group": "Other"
+    },
+    {
+      "code": 6120,
+      "display_code": "6120",
+      "label": "Forest and Conservation Workers",
+      "group": "Other"
+    },
+    {
+      "code": 6130,
+      "display_code": "6130",
+      "label": "Logging Workers",
+      "group": "Other"
+    },
+    {
+      "code": 6200,
+      "display_code": "6200",
+      "label": "First-Line Supervisors of Construction Trades and Extraction Workers",
+      "group": "Other"
+    },
+    {
+      "code": 6210,
+      "display_code": "6210",
+      "label": "Boilermakers",
+      "group": "Other"
+    },
+    {
+      "code": 6220,
+      "display_code": "6220",
+      "label": "Brickmasons, blockmasons, stonemasons, and reinforcing iron and rebar workers",
+      "group": "Other"
+    },
+    {
+      "code": 6230,
+      "display_code": "6230",
+      "label": "Carpenters",
+      "group": "Other"
+    },
+    {
+      "code": 6240,
+      "display_code": "6240",
+      "label": "Carpet, Floor, and Tile Installers and Finishers",
+      "group": "Other"
+    },
+    {
+      "code": 6250,
+      "display_code": "6250",
+      "label": "Cement Masons, Concrete Finishers, and Terrazzo Workers",
+      "group": "Other"
+    },
+    {
+      "code": 6260,
+      "display_code": "6260",
+      "label": "Construction Laborers",
+      "group": "Other"
+    },
+    {
+      "code": 6300,
+      "display_code": "6300",
+      "label": "Paving, Surfacing, and Tamping Equipment Operators",
+      "group": "Other"
+    },
+    {
+      "code": 6320,
+      "display_code": "6320",
+      "label": "Construction equipment operators except paving, surfacing, and tamping equipment operators",
+      "group": "Other"
+    },
+    {
+      "code": 6330,
+      "display_code": "6330",
+      "label": "Drywall Installers, Ceiling Tile Installers, and Tapers",
+      "group": "Other"
+    },
+    {
+      "code": 6355,
+      "display_code": "6355",
+      "label": "Electricians",
+      "group": "Other"
+    },
+    {
+      "code": 6360,
+      "display_code": "6360",
+      "label": "Glaziers",
+      "group": "Other"
+    },
+    {
+      "code": 6400,
+      "display_code": "6400",
+      "label": "Insulation Workers",
+      "group": "Other"
+    },
+    {
+      "code": 6420,
+      "display_code": "6420",
+      "label": "Painters and paperhangers",
+      "group": "Other"
+    },
+    {
+      "code": 6440,
+      "display_code": "6440",
+      "label": "Pipelayers, Plumbers, Pipefitters, and Steamfitters",
+      "group": "Other"
+    },
+    {
+      "code": 6460,
+      "display_code": "6460",
+      "label": "Plasterers and Stucco Masons",
+      "group": "Other"
+    },
+    {
+      "code": 6515,
+      "display_code": "6515",
+      "label": "Roofers",
+      "group": "Other"
+    },
+    {
+      "code": 6520,
+      "display_code": "6520",
+      "label": "Sheet Metal Workers",
+      "group": "Other"
+    },
+    {
+      "code": 6530,
+      "display_code": "6530",
+      "label": "Structural Iron and Steel Workers",
+      "group": "Other"
+    },
+    {
+      "code": 6600,
+      "display_code": "6600",
+      "label": "Helpers, Construction Trades",
+      "group": "Other"
+    },
+    {
+      "code": 6660,
+      "display_code": "6660",
+      "label": "Construction and Building Inspectors",
+      "group": "Other"
+    },
+    {
+      "code": 6700,
+      "display_code": "6700",
+      "label": "Elevator Installers and Repairers",
+      "group": "Other"
+    },
+    {
+      "code": 6710,
+      "display_code": "6710",
+      "label": "Fence Erectors",
+      "group": "Other"
+    },
+    {
+      "code": 6720,
+      "display_code": "6720",
+      "label": "Hazardous Materials Removal Workers",
+      "group": "Other"
+    },
+    {
+      "code": 6730,
+      "display_code": "6730",
+      "label": "Highway Maintenance Workers",
+      "group": "Other"
+    },
+    {
+      "code": 6740,
+      "display_code": "6740",
+      "label": "Rail-Track Laying and Maintenance Equipment Operators",
+      "group": "Other"
+    },
+    {
+      "code": 6765,
+      "display_code": "6765",
+      "label": "Miscellaneous construction workers, including solar photovoltaic installers, septic tank servicers and sewer pipe cleaners",
+      "group": "Other"
+    },
+    {
+      "code": 6800,
+      "display_code": "6800",
+      "label": "Derrick, rotary drill, and service unit operators, and roustabouts, oil, gas, and mining",
+      "group": "Other"
+    },
+    {
+      "code": 6820,
+      "display_code": "6820",
+      "label": "Earth Drillers, Except Oil and Gas",
+      "group": "Other"
+    },
+    {
+      "code": 6830,
+      "display_code": "6830",
+      "label": "Explosives Workers, Ordnance Handling Experts, and Blasters",
+      "group": "Other"
+    },
+    {
+      "code": 6840,
+      "display_code": "6840",
+      "label": "Mining Machine Operators",
+      "group": "Other"
+    },
+    {
+      "code": 6940,
+      "display_code": "6940",
+      "label": "Miscellaneous extraction workers, including roof bolters and helpers",
+      "group": "Other"
+    },
+    {
+      "code": 7000,
+      "display_code": "7000",
+      "label": "First-Line Supervisors of Mechanics, Installers, and Repairers",
+      "group": "Other"
+    },
+    {
+      "code": 7010,
+      "display_code": "7010",
+      "label": "Computer, Automated Teller, and Office Machine Repairers",
+      "group": "Other"
+    },
+    {
+      "code": 7020,
+      "display_code": "7020",
+      "label": "Radio and Telecommunications Equipment Installers and Repairers",
+      "group": "Other"
+    },
+    {
+      "code": 7030,
+      "display_code": "7030",
+      "label": "Avionics Technicians",
+      "group": "Other"
+    },
+    {
+      "code": 7040,
+      "display_code": "7040",
+      "label": "Electric Motor, Power Tool, and Related Repairers",
+      "group": "Other"
+    },
+    {
+      "code": 7100,
+      "display_code": "7100",
+      "label": "Electrical and electronics repairers, transportation equipment, and industrial and utility",
+      "group": "Other"
+    },
+    {
+      "code": 7110,
+      "display_code": "7110",
+      "label": "Electronic Equipment Installers and Repairers, Motor Vehicles",
+      "group": "Other"
+    },
+    {
+      "code": 7120,
+      "display_code": "7120",
+      "label": "Electronic Home Entertainment Equipment Installers and Repairers",
+      "group": "Other"
+    },
+    {
+      "code": 7130,
+      "display_code": "7130",
+      "label": "Security and Fire Alarm Systems Installers",
+      "group": "Other"
+    },
+    {
+      "code": 7140,
+      "display_code": "7140",
+      "label": "Aircraft Mechanics and Service Technicians",
+      "group": "Other"
+    },
+    {
+      "code": 7150,
+      "display_code": "7150",
+      "label": "Automotive Body and Related Repairers",
+      "group": "Other"
+    },
+    {
+      "code": 7160,
+      "display_code": "7160",
+      "label": "Automotive Glass Installers and Repairers",
+      "group": "Other"
+    },
+    {
+      "code": 7200,
+      "display_code": "7200",
+      "label": "Automotive Service Technicians and Mechanics",
+      "group": "Other"
+    },
+    {
+      "code": 7210,
+      "display_code": "7210",
+      "label": "Bus and Truck Mechanics and Diesel Engine Specialists",
+      "group": "Other"
+    },
+    {
+      "code": 7220,
+      "display_code": "7220",
+      "label": "Heavy Vehicle and Mobile Equipment Service Technicians and Mechanics",
+      "group": "Other"
+    },
+    {
+      "code": 7240,
+      "display_code": "7240",
+      "label": "Small Engine Mechanics",
+      "group": "Other"
+    },
+    {
+      "code": 7260,
+      "display_code": "7260",
+      "label": "Miscellaneous Vehicle and Mobile Equipment Mechanics, Installers, and Repairers",
+      "group": "Other"
+    },
+    {
+      "code": 7300,
+      "display_code": "7300",
+      "label": "Control and Valve Installers and Repairers",
+      "group": "Other"
+    },
+    {
+      "code": 7315,
+      "display_code": "7315",
+      "label": "Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
+      "group": "Other"
+    },
+    {
+      "code": 7320,
+      "display_code": "7320",
+      "label": "Home Appliance Repairers",
+      "group": "Other"
+    },
+    {
+      "code": 7330,
+      "display_code": "7330",
+      "label": "Industrial and Refractory Machinery Mechanics",
+      "group": "Other"
+    },
+    {
+      "code": 7340,
+      "display_code": "7340",
+      "label": "Maintenance and Repair Workers, General",
+      "group": "Other"
+    },
+    {
+      "code": 7350,
+      "display_code": "7350",
+      "label": "Maintenance Workers, Machinery",
+      "group": "Other"
+    },
+    {
+      "code": 7360,
+      "display_code": "7360",
+      "label": "Millwrights",
+      "group": "Other"
+    },
+    {
+      "code": 7410,
+      "display_code": "7410",
+      "label": "Electrical Power-Line Installers and Repairers",
+      "group": "Other"
+    },
+    {
+      "code": 7420,
+      "display_code": "7420",
+      "label": "Telecommunications Line Installers and Repairers",
+      "group": "Other"
+    },
+    {
+      "code": 7430,
+      "display_code": "7430",
+      "label": "Precision Instrument and Equipment Repairers",
+      "group": "Other"
+    },
+    {
+      "code": 7510,
+      "display_code": "7510",
+      "label": "Coin, Vending, and Amusement Machine Servicers and Repairers",
+      "group": "Other"
+    },
+    {
+      "code": 7540,
+      "display_code": "7540",
+      "label": "Locksmiths and Safe Repairers",
+      "group": "Other"
+    },
+    {
+      "code": 7560,
+      "display_code": "7560",
+      "label": "Riggers",
+      "group": "Other"
+    },
+    {
+      "code": 7610,
+      "display_code": "7610",
+      "label": "Helpers--Installation, Maintenance, and Repair Workers",
+      "group": "Other"
+    },
+    {
+      "code": 7630,
+      "display_code": "7630",
+      "label": "Miscellaneous installation, maintenance, and repair workers, including wind turbine service technicians",
+      "group": "Other"
+    },
+    {
+      "code": 7700,
+      "display_code": "7700",
+      "label": "First-Line Supervisors of Production and Operating Workers",
+      "group": "Other"
+    },
+    {
+      "code": 7710,
+      "display_code": "7710",
+      "label": "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",
+      "group": "Other"
+    },
+    {
+      "code": 7720,
+      "display_code": "7720",
+      "label": "Electrical, Electronics, and Electromechanical Assemblers",
+      "group": "Other"
+    },
+    {
+      "code": 7730,
+      "display_code": "7730",
+      "label": "Engine and Other Machine Assemblers",
+      "group": "Other"
+    },
+    {
+      "code": 7740,
+      "display_code": "7740",
+      "label": "Structural Metal Fabricators and Fitters",
+      "group": "Other"
+    },
+    {
+      "code": 7750,
+      "display_code": "7750",
+      "label": "Miscellaneous Assemblers and Fabricators",
+      "group": "Other"
+    },
+    {
+      "code": 7800,
+      "display_code": "7800",
+      "label": "Bakers",
+      "group": "Other"
+    },
+    {
+      "code": 7810,
+      "display_code": "7810",
+      "label": "Butchers and Other Meat, Poultry, and Fish Processing Workers",
+      "group": "Other"
+    },
+    {
+      "code": 7830,
+      "display_code": "7830",
+      "label": "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",
+      "group": "Other"
+    },
+    {
+      "code": 7840,
+      "display_code": "7840",
+      "label": "Food Batchmakers",
+      "group": "Other"
+    },
+    {
+      "code": 7850,
+      "display_code": "7850",
+      "label": "Food Cooking Machine Operators and Tenders",
+      "group": "Other"
+    },
+    {
+      "code": 7855,
+      "display_code": "7855",
+      "label": "Food processing workers, all other",
+      "group": "Other"
+    },
+    {
+      "code": 7900,
+      "display_code": "7900",
+      "label": "Computer Control Programmers and Operators",
+      "group": "Other"
+    },
+    {
+      "code": 7920,
+      "display_code": "7920",
+      "label": "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",
+      "group": "Other"
+    },
+    {
+      "code": 7930,
+      "display_code": "7930",
+      "label": "Forging Machine Setters, Operators, and Tenders, Metal and Plastic",
+      "group": "Other"
+    },
+    {
+      "code": 7940,
+      "display_code": "7940",
+      "label": "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",
+      "group": "Other"
+    },
+    {
+      "code": 7950,
+      "display_code": "7950",
+      "label": "Machine tool cutting setters, operators, and tenders, metal and plastic",
+      "group": "Other"
+    },
+    {
+      "code": 8030,
+      "display_code": "8030",
+      "label": "Machinists",
+      "group": "Other"
+    },
+    {
+      "code": 8040,
+      "display_code": "8040",
+      "label": "Metal Furnace Operators, Tenders, Pourers, and Casters",
+      "group": "Other"
+    },
+    {
+      "code": 8100,
+      "display_code": "8100",
+      "label": "Model makers, patternmakers, and molding machine setters, metal and plastic",
+      "group": "Other"
+    },
+    {
+      "code": 8130,
+      "display_code": "8130",
+      "label": "Tool and Die Makers",
+      "group": "Other"
+    },
+    {
+      "code": 8140,
+      "display_code": "8140",
+      "label": "Welding, Soldering, and Brazing Workers",
+      "group": "Other"
+    },
+    {
+      "code": 8220,
+      "display_code": "8220",
+      "label": "Miscellaneous metal workers and plastic workers, including multiple machine tool setters",
+      "group": "Other"
+    },
+    {
+      "code": 8250,
+      "display_code": "8250",
+      "label": "Prepress Technicians and Workers",
+      "group": "Other"
+    },
+    {
+      "code": 8255,
+      "display_code": "8255",
+      "label": "Printing Press Operators",
+      "group": "Other"
+    },
+    {
+      "code": 8256,
+      "display_code": "8256",
+      "label": "Print Binding and Finishing Workers",
+      "group": "Other"
+    },
+    {
+      "code": 8300,
+      "display_code": "8300",
+      "label": "Laundry and Dry-Cleaning Workers",
+      "group": "Other"
+    },
+    {
+      "code": 8310,
+      "display_code": "8310",
+      "label": "Pressers, Textile, Garment, and Related Materials",
+      "group": "Other"
+    },
+    {
+      "code": 8320,
+      "display_code": "8320",
+      "label": "Sewing Machine Operators",
+      "group": "Other"
+    },
+    {
+      "code": 8330,
+      "display_code": "8330",
+      "label": "Shoe and leather workers",
+      "group": "Other"
+    },
+    {
+      "code": 8350,
+      "display_code": "8350",
+      "label": "Tailors, Dressmakers, and Sewers",
+      "group": "Other"
+    },
+    {
+      "code": 8400,
+      "display_code": "8400",
+      "label": "Textile bleaching and dyeing, and cutting machine setters, operators, and tenders",
+      "group": "Other"
+    },
+    {
+      "code": 8410,
+      "display_code": "8410",
+      "label": "Textile Knitting and Weaving Machine Setters, Operators, and Tenders",
+      "group": "Other"
+    },
+    {
+      "code": 8420,
+      "display_code": "8420",
+      "label": "Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",
+      "group": "Other"
+    },
+    {
+      "code": 8450,
+      "display_code": "8450",
+      "label": "Upholsterers",
+      "group": "Other"
+    },
+    {
+      "code": 8460,
+      "display_code": "8460",
+      "label": "Miscellaneous textile, apparel, and furnishings workers except upholsterers",
+      "group": "Other"
+    },
+    {
+      "code": 8500,
+      "display_code": "8500",
+      "label": "Cabinetmakers and Bench Carpenters",
+      "group": "Other"
+    },
+    {
+      "code": 8510,
+      "display_code": "8510",
+      "label": "Furniture Finishers",
+      "group": "Other"
+    },
+    {
+      "code": 8530,
+      "display_code": "8530",
+      "label": "Sawing Machine Setters, Operators, and Tenders, Wood",
+      "group": "Other"
+    },
+    {
+      "code": 8540,
+      "display_code": "8540",
+      "label": "Woodworking Machine Setters, Operators, and Tenders, Except Sawing",
+      "group": "Other"
+    },
+    {
+      "code": 8550,
+      "display_code": "8550",
+      "label": "Miscellaneous woodworkers, including model makers and patternmakers",
+      "group": "Other"
+    },
+    {
+      "code": 8600,
+      "display_code": "8600",
+      "label": "Power Plant Operators, Distributors, and Dispatchers",
+      "group": "Other"
+    },
+    {
+      "code": 8610,
+      "display_code": "8610",
+      "label": "Stationary Engineers and Boiler Operators",
+      "group": "Other"
+    },
+    {
+      "code": 8620,
+      "display_code": "8620",
+      "label": "Water and Wastewater Treatment Plant and System Operators",
+      "group": "Other"
+    },
+    {
+      "code": 8630,
+      "display_code": "8630",
+      "label": "Miscellaneous Plant and System Operators",
+      "group": "Other"
+    },
+    {
+      "code": 8640,
+      "display_code": "8640",
+      "label": "Chemical Processing Machine Setters, Operators, and Tenders",
+      "group": "Other"
+    },
+    {
+      "code": 8650,
+      "display_code": "8650",
+      "label": "Crushing, Grinding, Polishing, Mixing, and Blending Workers",
+      "group": "Other"
+    },
+    {
+      "code": 8710,
+      "display_code": "8710",
+      "label": "Cutting Workers",
+      "group": "Other"
+    },
+    {
+      "code": 8720,
+      "display_code": "8720",
+      "label": "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",
+      "group": "Other"
+    },
+    {
+      "code": 8730,
+      "display_code": "8730",
+      "label": "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",
+      "group": "Other"
+    },
+    {
+      "code": 8740,
+      "display_code": "8740",
+      "label": "Inspectors, Testers, Sorters, Samplers, and Weighers",
+      "group": "Other"
+    },
+    {
+      "code": 8750,
+      "display_code": "8750",
+      "label": "Jewelers and Precious Stone and Metal Workers",
+      "group": "Other"
+    },
+    {
+      "code": 8760,
+      "display_code": "8760",
+      "label": "Medical, Dental, and Ophthalmic Laboratory Technicians",
+      "group": "Other"
+    },
+    {
+      "code": 8800,
+      "display_code": "8800",
+      "label": "Packaging and Filling Machine Operators and Tenders",
+      "group": "Other"
+    },
+    {
+      "code": 8810,
+      "display_code": "8810",
+      "label": "Painting Workers",
+      "group": "Other"
+    },
+    {
+      "code": 8830,
+      "display_code": "8830",
+      "label": "Photographic Process Workers and Processing Machine Operators",
+      "group": "Other"
+    },
+    {
+      "code": 8850,
+      "display_code": "8850",
+      "label": "Adhesive Bonding Machine Operators and Tenders",
+      "group": "Other"
+    },
+    {
+      "code": 8910,
+      "display_code": "8910",
+      "label": "Etchers and Engravers",
+      "group": "Other"
+    },
+    {
+      "code": 8920,
+      "display_code": "8920",
+      "label": "Molders, Shapers, and Casters, Except Metal and Plastic",
+      "group": "Other"
+    },
+    {
+      "code": 8930,
+      "display_code": "8930",
+      "label": "Paper Goods Machine Setters, Operators, and Tenders",
+      "group": "Other"
+    },
+    {
+      "code": 8940,
+      "display_code": "8940",
+      "label": "Tire Builders",
+      "group": "Other"
+    },
+    {
+      "code": 8950,
+      "display_code": "8950",
+      "label": "Helpers--Production Workers",
+      "group": "Other"
+    },
+    {
+      "code": 8965,
+      "display_code": "8965",
+      "label": "Miscellaneous production workers, including semiconductor processors",
+      "group": "Other"
+    },
+    {
+      "code": 9000,
+      "display_code": "9000",
+      "label": "Supervisors of Transportation and Material Moving Workers",
+      "group": "Other"
+    },
+    {
+      "code": 9030,
+      "display_code": "9030",
+      "label": "Aircraft Pilots and Flight Engineers",
+      "group": "Other"
+    },
+    {
+      "code": 9040,
+      "display_code": "9040",
+      "label": "Air Traffic Controllers and Airfield Operations Specialists",
+      "group": "Other"
+    },
+    {
+      "code": 9050,
+      "display_code": "9050",
+      "label": "Flight Attendants",
+      "group": "Other"
+    },
+    {
+      "code": 9110,
+      "display_code": "9110",
+      "label": "Ambulance Drivers and Attendants, Except Emergency Medical Technicians",
+      "group": "Other"
+    },
+    {
+      "code": 9120,
+      "display_code": "9120",
+      "label": "Bus Drivers",
+      "group": "Other"
+    },
+    {
+      "code": 9130,
+      "display_code": "9130",
+      "label": "Driver/Sales Workers and Truck Drivers",
+      "group": "Other"
+    },
+    {
+      "code": 9140,
+      "display_code": "9140",
+      "label": "Taxi Drivers and Chauffeurs",
+      "group": "Other"
+    },
+    {
+      "code": 9150,
+      "display_code": "9150",
+      "label": "Motor Vehicle Operators, All Other",
+      "group": "Other"
+    },
+    {
+      "code": 9200,
+      "display_code": "9200",
+      "label": "Locomotive Engineers and Operators",
+      "group": "Other"
+    },
+    {
+      "code": 9240,
+      "display_code": "9240",
+      "label": "Railroad Conductors and Yardmasters",
+      "group": "Other"
+    },
+    {
+      "code": 9260,
+      "display_code": "9260",
+      "label": "Subway, streetcar, and other rail transportation workers",
+      "group": "Other"
+    },
+    {
+      "code": 9300,
+      "display_code": "9300",
+      "label": "Sailors and marine oilers, and ship engineers",
+      "group": "Other"
+    },
+    {
+      "code": 9310,
+      "display_code": "9310",
+      "label": "Ship and Boat Captains and Operators",
+      "group": "Other"
+    },
+    {
+      "code": 9350,
+      "display_code": "9350",
+      "label": "Parking Lot Attendants",
+      "group": "Other"
+    },
+    {
+      "code": 9360,
+      "display_code": "9360",
+      "label": "Automotive and Watercraft Service Attendants",
+      "group": "Other"
+    },
+    {
+      "code": 9410,
+      "display_code": "9410",
+      "label": "Transportation Inspectors",
+      "group": "Other"
+    },
+    {
+      "code": 9415,
+      "display_code": "9415",
+      "label": "Transportation attendants, except flight attendants",
+      "group": "Other"
+    },
+    {
+      "code": 9420,
+      "display_code": "9420",
+      "label": "Miscellaneous transportation workers, including bridge and lock tenders and traffic technicians",
+      "group": "Other"
+    },
+    {
+      "code": 9510,
+      "display_code": "9510",
+      "label": "Crane and Tower Operators",
+      "group": "Other"
+    },
+    {
+      "code": 9520,
+      "display_code": "9520",
+      "label": "Dredge, Excavating, and Loading Machine Operators",
+      "group": "Other"
+    },
+    {
+      "code": 9560,
+      "display_code": "9560",
+      "label": "Conveyor operators and tenders, and hoist and winch operators",
+      "group": "Other"
+    },
+    {
+      "code": 9600,
+      "display_code": "9600",
+      "label": "Industrial Truck and Tractor Operators",
+      "group": "Other"
+    },
+    {
+      "code": 9610,
+      "display_code": "9610",
+      "label": "Cleaners of Vehicles and Equipment",
+      "group": "Other"
+    },
+    {
+      "code": 9620,
+      "display_code": "9620",
+      "label": "Laborers and Freight, Stock, and Material Movers, Hand",
+      "group": "Other"
+    },
+    {
+      "code": 9630,
+      "display_code": "9630",
+      "label": "Machine Feeders and Offbearers",
+      "group": "Other"
+    },
+    {
+      "code": 9640,
+      "display_code": "9640",
+      "label": "Packers and Packagers, Hand",
+      "group": "Other"
+    },
+    {
+      "code": 9650,
+      "display_code": "9650",
+      "label": "Pumping Station Operators",
+      "group": "Other"
+    },
+    {
+      "code": 9720,
+      "display_code": "9720",
+      "label": "Refuse and Recyclable Material Collectors",
+      "group": "Other"
+    },
+    {
+      "code": 9750,
+      "display_code": "9750",
+      "label": "Miscellaneous material moving workers, including mine shuttle car operators, and tank car, truck, and ship loaders",
+      "group": "Other"
+    },
+    {
+      "code": 9800,
+      "display_code": "9800",
+      "label": "Military Officer Special and Tactical Operations Leaders",
+      "group": "Excluded"
+    },
+    {
+      "code": 9810,
+      "display_code": "9810",
+      "label": "First-Line Enlisted Military Supervisors",
+      "group": "Excluded"
+    },
+    {
+      "code": 9820,
+      "display_code": "9820",
+      "label": "Military Enlisted Tactical Operations and Air/Weapons Specialists and Crew Members",
+      "group": "Excluded"
+    },
+    {
+      "code": 9830,
+      "display_code": "9830",
+      "label": "Military, Rank Not Specified",
+      "group": "Excluded"
+    },
+    {
+      "code": 9999,
+      "display_code": "9999",
+      "label": "NIU",
+      "group": "Excluded"
+    }
+  ]
+}

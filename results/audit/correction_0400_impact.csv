@@ -1,0 +1,5 @@
+income_year,group,n_unweighted_new,weighted_population_new,weight_effective_n_new,weighted_median_new,small_cell_new,suppress_plot_new,n_unweighted_old,weighted_population_old,weight_effective_n_old,weighted_median_old,small_cell_old,suppress_plot_old,n_unweighted_change,weighted_population_change,weighted_median_change
+1991,Other,34670,57022665.12,26242.40044004128,25000.0,False,False,34643,56981727.36,26222.10122302347,25000.0,False,False,27,40937.759999997914,0.0
+1992,Other,34738,58173651.66,26191.04326044047,26000.0,False,False,34712,58134000.58,26172.62749194719,26000.0,False,False,26,39651.07999999821,0.0
+1993,Other,33610,58906948.0,25388.019047969352,26000.0,False,False,33583,58869567.81999999,25369.4745636333,26000.0,False,False,27,37380.18000000715,0.0
+1994,Other,34278,61089594.88,25639.797958657466,27000.0,False,False,34253,61053620.8,25621.72271787807,27000.0,False,False,25,35974.08000000566,0.0

@@ -1,0 +1,7 @@
+data/raw/*
+!data/raw/README.md
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+data/metadata/cps_00001.xml

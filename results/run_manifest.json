@@ -1,0 +1,24 @@
+{
+  "input": "cps_00001.csv.gz",
+  "sha256": "1bda5f77809804052f18417b3eba80b55217d6b279362466f14ebfff1e43c291",
+  "raw_asec_rows": 8580140,
+  "analysis_rows": 2191970,
+  "survey_years": [
+    1976,
+    2025
+  ],
+  "income_years": [
+    1975,
+    2024
+  ],
+  "2014_main_hflag": 0,
+  "finance_definition": "12 codes; original 7-code definition exported as sensitivity, including redefined Other denominator",
+  "pooled_weight": "ASECWT/3; population-weighted person-year mixture, not equal-year normalized",
+  "limitations": [
+    "No survey-design confidence intervals",
+    "No person deduplication across years: repeated cross-sections",
+    "Weight-effective n is not design-adjusted n",
+    "Topcode threshold exposure needs separate year-specific audit",
+    "CPI99 must accompany unadjusted INCWAGE; do not double-adjust extract"
+  ]
+}

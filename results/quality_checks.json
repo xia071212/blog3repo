@@ -1,0 +1,13 @@
+{
+  "independent_medians_verified": 200,
+  "independent_counts_verified": 200,
+  "raw_file_gzip_read_to_end": true,
+  "early_topcode_medians_at_cap": 0,
+  "min_annual_group_n": 180,
+  "pooled_age_min_n": 412,
+  "covid_weight_years": [
+    2019,
+    2020,
+    2021
+  ]
+}

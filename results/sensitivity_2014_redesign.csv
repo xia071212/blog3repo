@@ -1,0 +1,5 @@
+income_year,group,n_unweighted,weighted_population,weight_effective_n,weighted_median,small_cell,suppress_plot
+2013,Finance,767,4134960.2299999995,533.3243779725185,60000.0,False,False
+2013,Healthcare,1169,6257737.77,806.9546622741935,60000.0,False,False
+2013,Other,13726,71438628.46000001,9323.440829419997,42000.0,False,False
+2013,Tech,692,3643397.67,478.5505452166336,83174.0,False,False

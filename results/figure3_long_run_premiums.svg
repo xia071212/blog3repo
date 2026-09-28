@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="828pt" height="460.8pt" viewBox="0 0 828 460.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-28T14:40:20.597204</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 460.8 
+L 828 460.8 
+L 828 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 74.52 368.64 
+L 786.6 368.64 
+L 786.6 101.376 
+L 74.52 101.376 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #374151" x="74.52" y="384.997422" transform="rotate(-0 74.52 384.997422)">1975</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #374151" x="141.697358" y="384.997422" transform="rotate(-0 141.697358 384.997422)">1980</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #374151" x="276.052075" y="384.997422" transform="rotate(-0 276.052075 384.997422)">1990</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #374151" x="410.406792" y="384.997422" transform="rotate(-0 410.406792 384.997422)">2000</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #374151" x="544.761509" y="384.997422" transform="rotate(-0 544.761509 384.997422)">2010</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #374151" x="679.116226" y="384.997422" transform="rotate(-0 679.116226 384.997422)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #374151" x="732.858113" y="384.997422" transform="rotate(-0 732.858113 384.997422)">2024</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #374151" x="430.56" y="399.997422" transform="rotate(-0 430.56 399.997422)">Income year</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_8">
+      <path d="M 74.52 368.64 
+L 786.6 368.64 
+" clip-path="url(#p71f35e0ea7)" style="fill: none; stroke: #e4e8ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9"/>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #374151" x="66.52" y="372.818711" transform="rotate(-0 66.52 372.818711)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_10">
+      <path d="M 74.52 322.159304 
+L 786.6 322.159304 
+" clip-path="url(#p71f35e0ea7)" style="fill: none; stroke: #e4e8ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11"/>
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #374151" x="66.52" y="326.338015" transform="rotate(-0 66.52 326.338015)">20</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_12">
+      <path d="M 74.52 275.678609 
+L 786.6 275.678609 
+" clip-path="url(#p71f35e0ea7)" style="fill: none; stroke: #e4e8ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13"/>
+     <g id="text_11">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #374151" x="66.52" y="279.85732" transform="rotate(-0 66.52 279.85732)">40</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_14">
+      <path d="M 74.52 229.197913 
+L 786.6 229.197913 
+" clip-path="url(#p71f35e0ea7)" style="fill: none; stroke: #e4e8ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15"/>
+     <g id="text_12">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #374151" x="66.52" y="233.376624" transform="rotate(-0 66.52 233.376624)">60</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_16">
+      <path d="M 74.52 182.717217 
+L 786.6 182.717217 
+" clip-path="url(#p71f35e0ea7)" style="fill: none; stroke: #e4e8ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_17"/>
+     <g id="text_13">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #374151" x="66.52" y="186.895928" transform="rotate(-0 66.52 186.895928)">80</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_18">
+      <path d="M 74.52 136.236522 
+L 786.6 136.236522 
+" clip-path="url(#p71f35e0ea7)" style="fill: none; stroke: #e4e8ed; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_19"/>
+     <g id="text_14">
+      <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #374151" x="66.52" y="140.415233" transform="rotate(-0 66.52 140.415233)">100</text>
+     </g>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #374151" x="28.881172" y="235.008" transform="rotate(-90 28.881172 235.008)">Median earnings premium (%)</text>
+    </g>
+   </g>
+   <g id="line2d_20">
+    <path d="M 74.52 255.501761 
+L 87.955472 271.805217 
+L 101.390943 249.649419 
+L 114.826415 256.742029 
+L 128.261887 281.876035 
+L 141.697358 252.438261 
+L 155.13283 245.602864 
+L 168.568302 252.438261 
+L 182.003774 253.059661 
+L 195.439245 275.678609 
+L 208.874717 251.174217 
+L 222.310189 262.803674 
+L 235.74566 241.874466 
+L 249.181132 237.281512 
+L 262.616604 252.438261 
+L 276.052075 248.628368 
+L 289.487547 238.494052 
+L 302.923019 243.499666 
+L 316.358491 213.56431 
+L 329.793962 208.470966 
+L 343.229434 213.704348 
+L 356.664906 210.771637 
+L 370.100377 219.901774 
+L 383.535849 174.970435 
+L 396.971321 173.720954 
+L 410.406792 165.286957 
+L 423.842264 168.03194 
+L 437.277736 196.863516 
+L 450.713208 182.717217 
+L 464.148679 169.437019 
+L 477.584151 178.198261 
+L 491.019623 161.361222 
+L 504.455094 171.990903 
+L 517.890566 171.097043 
+L 531.326038 165.286957 
+L 544.761509 165.286957 
+L 558.196981 159.47687 
+L 571.632453 147.573277 
+L 585.067925 158.370186 
+L 598.503396 140.663255 
+L 611.938868 161.081437 
+L 625.37434 172.388174 
+L 638.809811 141.8489 
+L 652.245283 174.179947 
+L 665.680755 173.421078 
+L 679.116226 159.211771 
+L 692.551698 170.48328 
+L 705.98717 148.686708 
+L 719.422642 174.970435 
+L 732.858113 151.730087 
+" clip-path="url(#p71f35e0ea7)" style="fill: none; stroke: #2358a5; stroke-width: 2.3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_21">
+    <path d="M 74.52 305.257233 
+L 87.955472 306.47207 
+L 101.390943 303.567026 
+L 114.826415 299.77971 
+L 128.261887 312.863165 
+L 141.697358 310.53913 
+L 155.13283 305.754353 
+L 168.568302 304.083478 
+L 182.003774 302.771635 
+L 195.439245 310.53913 
+L 208.874717 305.708677 
+L 222.310189 279.311959 
+L 235.74566 305.257233 
+L 249.181132 297.908507 
+L 262.616604 291.879068 
+L 276.052075 303.871818 
+L 289.487547 280.326678 
+L 302.923019 288.192642 
+L 316.358491 288.192642 
+L 329.793962 290.569646 
+L 343.229434 291.172174 
+L 356.664906 302.239006 
+L 370.100377 311.81735 
+L 383.535849 291.172174 
+L 396.971321 263.68359 
+L 410.406792 266.948953 
+L 423.842264 278.003125 
+L 437.277736 270.963176 
+L 450.713208 269.038509 
+L 464.148679 269.038509 
+L 477.584151 252.438261 
+L 491.019623 255.578848 
+L 504.455094 273.294983 
+L 517.890566 264.058435 
+L 531.326038 264.058435 
+L 544.761509 252.438261 
+L 558.196981 252.438261 
+L 571.632453 260.940827 
+L 585.067925 257.971677 
+L 598.503396 252.438261 
+L 611.938868 264.601917 
+L 625.37434 255.020522 
+L 638.809811 243.89214 
+L 652.245283 269.038509 
+L 665.680755 257.08633 
+L 679.116226 269.669697 
+L 692.551698 235.06731 
+L 705.98717 269.038509 
+L 719.422642 252.438261 
+L 732.858113 221.45113 
+" clip-path="url(#p71f35e0ea7)" style="fill: none; stroke: #bc6828; stroke-width: 2.3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_22">
+    <path d="M 585.067925 368.64 
+L 585.067925 101.376 
+" clip-path="url(#p71f35e0ea7)" style="fill: none; stroke-dasharray: 1,1.65; stroke-dashoffset: 0; stroke: #a9afb8"/>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2358a5" x="738.858113" y="154.327743" transform="rotate(-0 738.858113 154.327743)">93.3%</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #bc6828" x="738.858113" y="224.048787" transform="rotate(-0 738.858113 224.048787)">63.3%</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #687383" transform="translate(591.78566 346.217365)">2013 income:</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #687383" transform="translate(591.78566 357.019826)">original 5/8 sample</text>
+   </g>
+   <g id="legend_1">
+    <g id="line2d_23">
+     <path d="M 84.42 115.784281 
+L 95.42 115.784281 
+L 106.42 115.784281 
+" style="fill: none; stroke: #2358a5; stroke-width: 2.3; stroke-linecap: square"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18283e" x="115.22" y="119.634281" transform="rotate(-0 115.22 119.634281)">Tech</text>
+    </g>
+    <g id="line2d_24">
+     <path d="M 161.858281 115.784281 
+L 172.858281 115.784281 
+L 183.858281 115.784281 
+" style="fill: none; stroke: #bc6828; stroke-width: 2.3; stroke-linecap: square"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18283e" x="192.658281" y="119.634281" transform="rotate(-0 192.658281 119.634281)">Finance</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_21">
+   <text style="font-weight: 700; font-size: 20px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18283e" x="74.52" y="27.648" transform="rotate(-0 74.52 27.648)">Tech and Finance premiums are higher than in the 1970s</text>
+  </g>
+  <g id="text_22">
+   <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #18283e" x="74.52" y="52.5312" transform="rotate(-0 74.52 52.5312)">Unadjusted group comparisons. Premium = group median / Other median − 1.</text>
+  </g>
+  <g id="text_23">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #586575" x="74.52" y="428.544" transform="rotate(-0 74.52 428.544)">Source: IPUMS CPS ASEC, extract 1. Ages 25–64, full-time/full-year wage and salary workers.</text>
+  </g>
+  <g id="text_24">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #586575" x="74.52" y="440.9856" transform="rotate(-0 74.52 440.9856)">Positive annual wages. Person weights: ASECWT. Occupation refers to the longest-held job in the previous year.</text>
+  </g>
+  <g id="text_25">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #586575" x="74.52" y="412.416" transform="rotate(-0 74.52 412.416)">Harmonized occupations retain classification breaks. Income disclosure rules and population weights also change over time.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p71f35e0ea7">
+   <rect x="74.52" y="101.376" width="712.08" height="267.264"/>
+  </clipPath>
+ </defs>
+</svg>
