@@ -24,27 +24,18 @@ IPUMS may add required technical fields automatically. Put the downloaded CSV.GZ
 
 The original microdata are kept locally and excluded from Git. Results and code can be shared. Follow the applicable [IPUMS usage and citation guidance](https://cps.ipums.org/cps/cite.shtml) for any public repository.
 
-## Reproduce
+## Reproduce the analysis and figures
 
 From the `blog3repo` folder, use Python 3.12 or later:
 
 ```sh
 python3 -m pip install -r requirements.txt
-python3 code/run_all.py --website-root ../myrepo1
+python3 code/run_all.py
 ```
 
-Without a sibling website project, run `python3 code/run_all.py`. It will still generate `blog_post.qmd` in this project. The sequence regenerates all weighted tables, figures, independent audit, article, and file hashes. The audit fails if any of 1,844 checked cells disagree on population weights, counts, or medians, if a year is missing, or if an undocumented occupation code appears. Check `results/audit/independent_audit_summary.json` and `results/output_manifest.json` after a run.
+This command reproduces the weighted earnings tables, three statistical figures (PNG/SVG and a PDF), sensitivity checks, and independent verification from the local microdata. It does not generate or render the blog and does not require the website repository or Quarto. The audit checks 1,844 estimate cells, 100 annual premiums, and 60 boxplot quantiles. Check `results/audit/independent_audit_summary.json`, `results/audit/boxplot_quantile_checks.json`, and `results/output_manifest.json` after a run. The manifest records analysis outputs only.
 
 The historical exception `OCC10LY=0400` is documented in the official crosswalk kept under `data/metadata/`; it belongs to Other. The 2014 ASEC main series uses the original 5/8 questionnaire, with the redesigned 3/8 questionnaire reported separately. See `PROVENANCE.md` for details.
-
-To preview the website article locally, run the Quarto executable from the website project:
-
-```sh
-cd ../myrepo1
-quarto render blog/posts/post3/index.qmd
-```
-
-Rendering the post locally does not publish it.
 
 Read [Blog 3](https://xia071212.github.io/myrepo/blog/posts/post3/index.html). Its article source is maintained separately in [the website repository](https://github.com/xia071212/myrepo/blob/main/blog/posts/post3/index.qmd). The analysis repository is [blog3repo](https://github.com/xia071212/blog3repo).
 
@@ -59,3 +50,7 @@ Read [Blog 3](https://xia071212.github.io/myrepo/blog/posts/post3/index.html). I
 - `results/sample_flow.csv`, `results/quality_flags_and_topcodes.csv`, and `results/audit/`: supporting data-quality checks.
 
 **Citation:** Sarah Flood, Miriam King, Renae Rodgers, Steven Ruggles, J. Robert Warren, Daniel Backman, Etienne Breton, Grace Cooper, Julia A. Rivera Drew, Stephanie Richards, David Van Riper, and Kari C. Williams. *IPUMS CPS: Version 13.0* [dataset]. Minneapolis, MN: IPUMS, 2025. https://doi.org/10.18128/D030.V13.0
+
+## Optional: update the article
+
+Article maintenance is separate from reproducing the research. After running the analysis, the author can update the article from the result tables with `python3 code/build_post.py --website-root ../myrepo1`. Rendering or publishing the website is not part of the replication workflow.

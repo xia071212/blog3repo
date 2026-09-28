@@ -1,5 +1,4 @@
 {
-  "blog_post.qmd": "c628927306e0a957b67e0e666f097f629527d150a4533846e8d190390e871f08",
   "results/QINCLONG_coverage.csv": "d9ea1c5c5e77e2ca7f1106cb9693510e57d2a3e5c384a79ec641a543614c2f95",
   "results/QOINCWAGE_coverage.csv": "31e36e79a4913ead6486f65fade3cf7cda43751cfe7be80cc10ae9b8216495ea",
   "results/TINCLONGJ_coverage.csv": "02213e80546176aca4407035b3ac669fca47b7d6c1b560a15c9333d1c722f75a",
@@ -17,11 +16,11 @@
   "results/audit/verified_pooled_age_2022_2024.csv": "e507936cfc1db1495da70357cd1d0fed1dd50dafcc80f62ac93609f7f1488864",
   "results/audit/verified_recent_earnings_2022_2024.csv": "7acfbd0c00f638bed8174991ac70a433b57eed5f6898db9d40b639186ac6b353",
   "results/figure1_recent_earnings.png": "74a1bc37d9ea2887a90ace77269341594ac22263291891f58963b5c2ebf88e4f",
-  "results/figure1_recent_earnings.svg": "0c5c7aa4a2ff6e851b5ad2f71f11339e7231a1e51ae5b1b4196aa247fa491613",
+  "results/figure1_recent_earnings.svg": "b3e762e612f829509155bc8a8058e334f68c16b0efbcdf6931e7b21683529c91",
   "results/figure2_age_profiles.png": "a311d8f13e4eada15ae7e403bb9b13b2072ee643327867d35a3df8c36b1c409b",
-  "results/figure2_age_profiles.svg": "96b1d14446b0dae84741b513ee09a73a0ba6825f4663762f950f22df145ebb98",
+  "results/figure2_age_profiles.svg": "4e6058017cdd2df84151f49afe3c471336377a3ebeb1fd4caed22f07d907de44",
   "results/figure3_long_run_premiums.png": "8babf1a261f6a608418f7cf1dfeda319a3fa2482dffdb0b2daace8c15eaabf91",
-  "results/figure3_long_run_premiums.svg": "7d63f7b98d22530a01273e59981dcd2289c2fdce730e06ec422bf0d503ab4639",
+  "results/figure3_long_run_premiums.svg": "b644701cfb1c586d1bbaba40a148c92ed5905dd7bac5ed41ac9627d8c303cab6",
   "results/income_flag_distribution.csv": "531ad47e8143b59146d3b4f3137e02ecc1eba29a4ff2b5463abae9cdb6a4e1fc",
   "results/median_premiums.csv": "4860bc6aaace69623ddd0e20c36b0f8fdc9af60df703d03524abd80ded5b56f6",
   "results/observed_occupation_mapping.csv": "32faa658309bb290661e32065dffe5bd1a37d037cd0925c8eda324e0a4eefcd5",
@@ -43,5 +42,5 @@
   "results/sensitivity_narrow_finance_premiums.csv": "d20ad3143b98438aeac73dea2d8f5c064877845b074e5fe1d7900acb0975be5f",
   "results/session_info.txt": "58ca63bef358316a3ee2f4a14753345024f3d0abf0308ae64b56f330e4fc3d56",
   "results/source_log.csv": "cfa0dbeddb5bb15f394cc90566a33586a849ed41615089d7be31263e006130fe",
-  "results/three_figures.pdf": "44cfddfbf4816547aaeec0196f39402820ce696e256002903c40dc230afdf575"
+  "results/three_figures.pdf": "d5577b6178ede27f28fbe227021bcb8b271159e62dbaa51c48c0e29b20e3b7c8"
 }

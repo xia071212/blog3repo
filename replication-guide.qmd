@@ -40,29 +40,27 @@ Figure 1 compares recent weighted earnings distributions in 2024 dollars: boxes 
 
 The observed differences are descriptive. Age groups are different people, and income may come from more than one wage job during the year even though the occupation identifies the longest-held job. Coding changes, income disclosure treatment, and survey weights also limit historical comparison. This study does not estimate a causal return to selecting a career or an AI-specific wage premium.
 
-## 4. Reproduction and verification
+## 4. Reproduce the analysis and figures
 
-After downloading the authorized extract and DDI to the paths specified in `README.md`, install the packages in `requirements.txt` and run:
-
-```sh
-python3 code/run_all.py --website-root ../myrepo1
-```
-
-The driver rebuilds all CSV tables, three figures, topcode/flag checks, an independent audit, and the Quarto article. It writes `results/output_manifest.json` with SHA-256 hashes of generated files and `results/session_info.txt` with package versions. The independent audit checks 1,844 estimate cells and 100 annual premiums. It also compares the 30 CSV columns with the matching DDI and detects duplicate person-year keys.
-
-Render this guide from the analysis repository:
+Replication means rebuilding the numerical results and statistical figures from the IPUMS microdata. Download the authorized extract and matching DDI to the paths specified in the [README](https://github.com/xia071212/blog3repo#readme), then run these commands from the `blog3repo` directory:
 
 ```sh
-quarto render replication-guide.qmd
+python3 -m pip install -r requirements.txt
+python3 code/run_all.py
 ```
 
-Finally, render the website article from the `myrepo1` root:
+No website repository or Quarto installation is needed. The command saves the following outputs in `results/`:
 
-```sh
-quarto render blog/posts/post3/index.qmd
-```
+| Analysis | Main outputs |
+|---|---|
+| Recent earnings and distributions, 2022–2024 | `recent_earnings_2022_2024.csv`, `recent_earnings_distribution_2022_2024.csv`, `figure1_recent_earnings.png` |
+| Pooled age–earnings profiles | `pooled_age_2022_2024.csv`, `figure2_age_profiles.png` |
+| Annual Tech and Finance premiums, 1975–2024 | `median_premiums.csv`, `figure3_long_run_premiums.png` |
+| Sample construction and robustness | `sample_flow.csv`, `sensitivity_*.csv`, `quality_flags_and_topcodes.csv` |
 
-The post belongs in the website project; this project remains the analysis and reproduction package. Local rendering does not publish either repository.
+SVG versions of all three figures and `three_figures.pdf` are also produced. The independent audit checks 1,844 estimate cells, 100 annual premiums, and 60 boxplot quantiles. It compares the 30 CSV columns with the matching DDI and checks duplicate person-year records. Review the verification reports under `results/audit/`.
+
+`results/session_info.txt` records package versions, `results/source_log.csv` identifies the inputs, and `results/output_manifest.json` records SHA-256 hashes of analysis outputs. The script stops if a required check fails. Generating, rendering, or publishing the blog is a separate authoring task and is not required to reproduce these results.
 
 ## Citation
 
